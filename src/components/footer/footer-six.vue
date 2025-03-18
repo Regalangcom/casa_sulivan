@@ -31,7 +31,7 @@
                 type="text"
                 placeholder="Enter your email address"
               />
-              <button class="btn btn-solid" data-text="Subscribe">
+              <button class="btn btn-solid" data-text="Send Email">
                 <span>send Email</span>
               </button>
             </div>
