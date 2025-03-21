@@ -88,19 +88,19 @@ export const footerLink1 = [
 ]
 export const footerLink2 = [
     {
-        name:'Shipping Method',
-        link:'/shipping-method'
+        name:'Industrial Design',
+        link:'/'
     },
     {
-        name:'Payment Method',
-        link:'/payment-method'
+        name:'Architecture Design',
+        link:'/'
     },
     {
-        name:'My Account',
-        link:'/my-profile'
+        name:'Commercial Interior Design',
+        link:'/'
     },
     {
-        name:'Coming Soon',
+        name:'Detailed And Phase Planing',
         link:'/coming-soon'
     },
 ]

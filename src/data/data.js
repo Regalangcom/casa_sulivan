@@ -69,8 +69,8 @@ import product2 from '@/assets/img/home-v2/product/pdct-02.jpg'
 import product3 from '@/assets/img/home-v2/product/pdct-03.jpg'
 import product4 from '@/assets/img/home-v2/product/pdct-04.jpg'
 
-import team2 from '@/assets/img/testimonial/tmnl-02.jpg'
-import team3 from '@/assets/img/testimonial/tmnl-03.jpg'
+import team2 from '@/assets/img/pulman/pulman1(1).png'
+import team3 from '@/assets/img/acta/acta5.png'
 
 import team01 from '@/assets/img/team/team-01.jpg'
 import team02 from '@/assets/img/team/team-02.jpg'
@@ -382,16 +382,16 @@ export const productSlider = [
 
 export const teamData = [
     {
-        image:team2,
-        name:'Jennifer Smith',
-        location:'Berminghum ,UK',
-        desc:`Casa Sulivan exceeded my expectations with their exceptional furniture pieces. The quality craftsmanship and attention to detail truly shine through in every product. My home has been transformed into a stylish sanctuary thanks to Furnixar!`
+        image:team3,
+        name:'ACTA Brasserie ',
+        location:'The MAJ, Senayan',
+        desc:`Sangat memuaskan, semua kebutuhan custom interior sesuai ekspektasi`
     },
     {
-        image:team3,
-        name:'Jennifer Smith',
-        location:'Berminghum ,UK',
-        desc:`Casa Sulivan exceeded my expectations with their exceptional furniture pieces. The quality craftsmanship and attention to detail truly shine through in every product. My home has been transformed into a stylish sanctuary thanks to Furnixar!`
+        image:team2,
+        name:'PULLMAN ',
+        location:'Hotel Orchard Singapore ',
+        desc:`Pilihan sofa yang variatif dan custompun bisa. CASA SULIVAN luar biasa.`
     },
 ]
 export const blogTwoData = [

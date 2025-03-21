@@ -15,10 +15,7 @@
     >
       <swiper-slide v-for="(item, index) in teamData" :key="index" class="text-center">
         <h6 class="dark:text-white italic font-normal w-[70%] mx-auto">
-          Casa Sulivan exceeded my expectations with their exceptional furniture pieces.
-          The quality craftsmanship and attention to detail truly shine through in every
-          product. My home has been transformed into a stylish sanctuary thanks to
-          Furnixar!
+          {{ item.desc }}
         </h6>
         <div class="flex items-center justify-center gap-3 mt-6 author">
           <div class="w-11 h-11 rounded-full overflow-hidden p-1 bg-primary">

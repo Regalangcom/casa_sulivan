@@ -8,7 +8,7 @@
         class="flex items-center justify-between gap-x-6 max-w-[1720px] mx-auto relative py-[10px] sm:py-4 lg:py-0"
       >
         <router-link class="cursor-pointer block" to="/" aria-label="casa sulivan">
-          <img :src="logoLight" alt="" class="dark:block w-[50px] md:w-[70px]" />
+          <img :src="logoLight" alt="" class="dark:block w-[90px] md:w-[200px]" />
         </router-link>
 
         <div
@@ -256,7 +256,7 @@
                   : ''
               "
             >
-              <router-link to="#">Contact Us</router-link>
+              <router-link to="/contact">Contact Us</router-link>
               <!-- <ul
                 class="sub-menu lg:absolute z-50 lg:top-full lg:left-0 lg:min-w-[220px] lg:invisible lg:transition-all lg:bg-white lg:dark:bg-title lg:py-[15px] lg:pr-[30px]"
               >
@@ -299,7 +299,7 @@
 import { onMounted, ref } from "vue";
 
 // import logoDark from "@/assets/img/svg/logo.svg";
-import logoLight from "@/assets/img/Casa-Sulivan.png";
+import logoLight from "@/assets/img/Casa-Sulivan-logo-new-brown.png";
 
 import NavMenuOne from "./nav-menu-one.vue";
 
