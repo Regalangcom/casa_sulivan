@@ -7,7 +7,7 @@
       :loop="true"
       :pagination="{ clickable: true }"
       :autoplay="{ delay: 3000 }"
-      class="carousel-slider-four owl-carousel block w-full h-[800px]"
+      class="carousel-slider-four owl-carousel block w-full md:h-[800px] h-[500px]"
     >
       <swiper-slide
         class="relative pt-12 md:pt-20 xl:pt-[126px] pb-12 sm:pb-20 xl:pb-24 px-[15px] sm:px-12 bg-cover bg-center bg-no-repeat"
