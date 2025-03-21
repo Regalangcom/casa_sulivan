@@ -35,13 +35,16 @@
               >
             </li>
           </ul>
-          <h5 class="mt-3 font-medium text-xl dark:text-white leading-[1.5]">
-            <router-link to="" class="text-underline">{{ item.title }}</router-link>
+          <h5 class="mt-3 font-normal text-xl dark:text-white leading-[1.5]">
+            <router-link to="" class="text-underline"
+              >{{ item.title }} <br />
+              {{ item.br }}
+            </router-link>
           </h5>
           <div class="text-center mt-7 md:mt-12">
-            <router-link to="" class="btn btn-outline" data-text="beli sekarang">
+            <router-link to="" class="btn btn-outline" data-text="Shop now">
               <!-- <router-link to="/shop-v1" class="btn btn-outline" data-text="All Category"> -->
-              <span>beli sekarang</span>
+              <span>Shop now</span>
             </router-link>
           </div>
         </div>

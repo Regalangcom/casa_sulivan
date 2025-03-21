@@ -7,7 +7,7 @@ import s4 from '@/assets/img/shape/no-minimum-order.png'
 import sl3 from '@/assets/img/svg/services/services-light-3.svg'
 import sl4 from '@/assets/img/svg/services/services-light-4.svg'
 
-import blog1 from '@/assets/img/banner/small.jpg'
+import blog1 from '@/assets/img/banner/Borneo_Stole_update.jpg'
 import blog2 from '@/assets/img/banner/chair.jpg'
 // import blog3 from '@/assets/img/home-v3/blog.jpg'
 
@@ -51,13 +51,15 @@ export const blogData = [
         image:blog1,
         // date:'13th March 2025',
         tag:' BORNE STOOL   ',
-        title:'Design for small space for your home'
+        title:'Design for small space ',
+        br : "for your home"
     },
     {
         image:blog2,
         // date:'5th May 2025',
         tag:'JAMIE CHAIR',
-        title:' High Quality Furniture for your home '
+        title:' High Quality Furniture',
+        br : "for your home"
     },
     
 ]

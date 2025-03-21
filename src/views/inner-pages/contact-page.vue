@@ -134,12 +134,21 @@
     <div class="s-pb-100" data-aos="fade-up">
       <div class="container-fluid">
         <div class="max-w-[1720px] mx-auto">
-          <h1>INI UNTUK GOOGLE MAPS !!!</h1>
           <!-- <iframe
             class="w-full h-[400px] md:h-[600px]"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28951.79709608298!2d91.85394430000001!3d24.898846749999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m3!3e6!4m0!4m0!5e0!3m2!1sen!2sbd!4v1668006237424!5m2!1sen!2sbd"
             style="border: 0"
           ></iframe> -->
+          <iframe
+            class="w-full h-[400px] md:h-[600px]"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3962.4832057892254!2d108.4908779!3d-6.7107303!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6ee1b46e4710af%3A0xec153562df30b80f!2sCasa%20Sulivan!5e0!3m2!1sid!2sid!4v1742528010442!5m2!1sid!2sid"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
       </div>
     </div>
