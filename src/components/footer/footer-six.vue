@@ -69,7 +69,11 @@
             <ul class="text-title dark:text-white leading-none flex flex-col gap-4">
               <li class="duration-100 hover:text-primary gap-7 flex items-center group">
                 <img :src="maps" alt="" class="w-5 h-5" />
-                <a class="text-underline-primary">Jln.Majestic Hall, Tanggerang</a>
+                <a
+                  class="text-underline-primary"
+                  href="https://maps.app.goo.gl/c72yz3quiGEtsUXk6"
+                  >Tegalwangi, Kec. Weru, Kab. Cirebon, Jawa Barat 45154</a
+                >
               </li>
               <li class="duration-100 hover:text-primary gap-7 flex items-center group">
                 <img :src="phone" alt="" class="w-5 h-5" />
@@ -86,22 +90,22 @@
             <h4 class="leading-none mb-5 md:mb-6 text-xl">Our gallery</h4>
             <div class="grid grid-cols-2 gap-2">
               <img
-                src="../../assets/img/Casa-Sulivan.png"
+                src="../../assets/img/acta/acta1.png"
                 alt="Gallery 1"
                 class="w-full h-20 object-cover rounded-md"
               />
               <img
-                src="../../assets/img/Casa-Sulivan.png"
+                src="../../assets/img/black-pond/black-pond.png"
                 alt="Gallery 2"
                 class="w-full h-20 object-cover rounded-md"
               />
               <img
-                src="../../assets/img/Casa-Sulivan.png"
+                src="../../assets/img/neonPigeon/NEON1.png"
                 alt="Gallery 3"
                 class="w-full h-20 object-cover rounded-md"
               />
               <img
-                src="../../assets/img/Casa-Sulivan.png"
+                src="../../assets/img/phoenix/phoenix1.png"
                 alt="Gallery 4"
                 class="w-full h-20 object-cover rounded-md"
               />
@@ -120,6 +124,7 @@ import logoLight from "@/assets/img/svg/logo-light.svg";
 import maps from "@/assets/img/icon/maps-and-flags.svg";
 import email from "@/assets/img/icon/post-office.svg";
 import phone from "@/assets/img/icon/phone.svg";
+
 import { footerLink2 } from "@/data/nav-data";
 
 const year = ref(new Date().getFullYear());
