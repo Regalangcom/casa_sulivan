@@ -24,7 +24,7 @@
                   '/index-v4',
                   '/index-v5',
                   '/index-v6', -->
-              <router-link to="#">Home</router-link>
+              <router-link to="/">Home</router-link>
               <!-- <ul
                 class="sub-menu lg:absolute z-50 lg:top-full lg:left-0 lg:min-w-[220px] lg:invisible lg:transition-all lg:bg-white lg:dark:bg-title lg:py-[15px] lg:pr-[30px]"
               >
@@ -198,9 +198,8 @@
                 </div>
               </div>
             </li>
-            <li
-              class="relative"
-              :class="
+            <li class="relative">
+              <!-- :class="
                 [
                   '/shop-v1',
                   '/shop-v2',
@@ -212,9 +211,8 @@
                 ].includes(current)
                   ? 'active'
                   : ''
-              "
-            >
-              <router-link to="#">Our Project</router-link>
+              " -->
+              <router-link to="/our-project">Our Project</router-link>
               <!-- <ul
                 class="sub-menu lg:absolute z-50 lg:top-full lg:left-0 lg:min-w-[220px] lg:invisible lg:transition-all lg:bg-white lg:dark:bg-title lg:py-[15px] lg:pr-[30px]"
               >
@@ -236,10 +234,10 @@
                 <li :class="current === '/cart' ? 'active' : ''">
                   <router-link to="/cart">My Cart</router-link>
                 </li>
-                <li :class="current === '/checkout' ? 'active' : ''">
-                  <router-link to="/checkout">Checkout</router-link>
-                </li>
-              </ul> -->
+              </ul>  -->
+            </li>
+            <li :class="current === '/our-project' ? 'active' : ''">
+              <!-- <router-link to="/checkout">Checkout</router-link> -->
             </li>
             <li
               class="relative"
@@ -282,9 +280,6 @@
             </li>
             <li :class="current === '/contact' ? 'active' : ''">
               <!-- <router-link to="/">Contact</router-link> -->
-            </li>
-            <li :class="current === '/login' ? 'active' : ''" class="lg:hidden">
-              <!-- <router-link to="/login">Login</router-link> -->
             </li>
           </ul>
         </div>

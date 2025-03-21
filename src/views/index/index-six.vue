@@ -40,8 +40,8 @@
               collection of trendsetting items.
             </p>
             <div class="button mt-4 md:mt-6">
-              <router-link class="btn btn-outline" to="/" data-text="lihat Produk"
-                ><span>lihat Produk</span></router-link
+              <router-link class="btn btn-outline" to="/" data-text="View Products"
+                ><span>View Products</span></router-link
               >
             </div>
           </div>

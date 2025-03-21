@@ -7,6 +7,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import IndexSix from '@/views/index/index-six.vue'
 import AboutUs from '@/views/inner-pages/about-us.vue'
 import PricingPage from '@/views/inner-pages/pricing-page.vue'
+import OurProjects from '@/views/inner-pages/our-project.vue'
 import TeamPage from '@/views/inner-pages/team-page.vue'
 import OurClients from '@/views/inner-pages/our-clients.vue'
 import FaqPage from '@/views/inner-pages/faq-page.vue'
@@ -58,6 +59,7 @@ const routes = [
   {path: '/',component: IndexSix},
   {path: '/about',component: AboutUs},
   {path: '/pricing',component: PricingPage},
+  {path: '/our-project',component: OurProjects},
   {path: '/team',component: TeamPage},
   {path: '/our-clients',component: OurClients},
   {path: '/faq',component: FaqPage},
