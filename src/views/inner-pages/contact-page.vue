@@ -48,7 +48,7 @@
             <div class="mt-8" data-aos="fade-up" data-aos-delay="100">
               <div>
                 <div
-                  class="grid sm:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2 gap-5 sm:gap-6"
+                  class="grid sm:grid-cols-2 lg:grid-cols-1 xl:grid-cols-1 gap-5 sm:gap-6"
                 >
                   <div>
                     <label

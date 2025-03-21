@@ -15,7 +15,6 @@ export const servicesData = [
     {
         id:1,
         image:s1,
-        // image2:sl1,
         title:'Free Delivery',
         product:'dont worry for shipping cost,free delivery for jakarta, tanggerang and bekasi',
         desc:''
@@ -23,10 +22,8 @@ export const servicesData = [
     {
         id:2,
         image:s2,
-        // image2:sl2,
         title:'Factory Direct',
         product:'All Product we tell, directly from the Factory',
-        // desc:'Elevate your living space with unparalleled comfort and style. Discover the epitome of luxury with our exquisite sofa sets.'
     },
     {
         id:3,
@@ -34,7 +31,6 @@ export const servicesData = [
         image2:sl3,
         title:'Custom Inquary',
         product:'we create custom handmade furniture. based on your inquary',
-        // desc:'Elevate your living space with unparalleled comfort and style. Discover the epitome of luxury with our exquisite sofa sets.'
     },
     {
         id:4,
@@ -42,14 +38,12 @@ export const servicesData = [
         image2:sl4,
         title:'No Minimum Order',
         product:'Budget Friendly with no minimum or small quantity order',
-        // desc:'Elevate your living space with unparalleled comfort and style. Discover the epitome of luxury with our exquisite sofa sets.'
     },
 ]
 
 export const blogData = [
     {
         image:blog1,
-        // date:'13th March 2025',
         tag:' BORNE STOOL   ',
         title:'Design for small space ',
         br : "for your home"
