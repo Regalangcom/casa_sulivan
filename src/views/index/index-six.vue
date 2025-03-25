@@ -18,23 +18,20 @@
         >
           <!-- Bagian Konten Teks -->
           <div
-            class="relative z-20 sm:max-w-[632px] w-full bg-white/80 md:bg-transparent md:p-0 p-6 rounded-lg shadow-lg text-center md:text-left"
+            class="relative z-20 sm:max-w-[632px] w-full bg-white/80 md:bg-transparent md:p-0 p-6 rounded-lg text-center md:text-left"
           >
             <div class="flex items-end justify-center md:justify-start">
               <span
                 class="font-bold text-5xl sm:text-7xl xl:text-9xl text-title leading-none dark:text-white"
               ></span>
-              <!-- <img
-                class="-ml-5 sm:-ml-10 w-[150px] sm:w-[200px] lg:w-[250px] xl:w-full"
-                :src="banner3"
-                alt="summer"
-              /> -->
             </div>
-            <h2
-              class="mt-[18px] font-normal text-3xl sm:text-4xl xl:text-7xl !leading-[1.3] dark:text-white"
-            >
-              Modified Papasan Chair
-            </h2>
+            <div class="w-full relative flex">
+              <h2
+                class="mt-[18px] font-normal text-3xl sm:text-4xl xl:text-6xl !leading-[1.3] dark:text-white"
+              >
+                Modified Papasan Chair
+              </h2>
+            </div>
             <p class="dark:text-white-light mt-3 md:mt-4 sm:max-w-[450px] xl:max-w-full">
               Discover the latest must-have arrivals! Elevate your style with our newest
               collection of trendsetting items.
@@ -48,7 +45,7 @@
         </div>
       </swiper-slide>
       <swiper-slide
-        class="relative pt-12 md:pt-20 xl:pt-[100px] pb-12 sm:pb-20 xl:pb-24 px-[15px] sm:px-12 bg-cover bg-center bg-no-repeat"
+        class="relative pt-12 md:pt-20 xl:pt-[126px] pb-12 sm:pb-20 xl:pb-24 px-[15px] sm:px-12 bg-cover bg-center bg-no-repeat"
         :style="{ backgroundImage: `url(${banner2})` }"
       >
         <div
@@ -56,7 +53,7 @@
         >
           <!-- Bagian Konten Teks -->
           <div
-            class="relative z-20 sm:max-w-[632px] w-full bg-white/80 md:bg-transparent md:p-0 p-6 rounded-lg shadow-lg text-center md:text-left"
+            class="relative z-20 sm:max-w-[632px] w-full bg-white/80 md:bg-transparent md:p-0 p-6 rounded-lg text-center md:text-left"
           >
             <div class="flex items-end justify-center md:justify-start">
               <span
@@ -64,7 +61,7 @@
               ></span>
             </div>
             <h2
-              class="mt-[10px] font-normal text-3xl sm:text-4xl xl:text-7xl !leading-[1.3] dark:text-white"
+              class="mt-[18px] font-normal text-3xl sm:text-4xl xl:text-7xl !leading-[1.3] dark:text-white"
             >
               Royal Armchair
             </h2>
@@ -73,8 +70,8 @@
               collection of trendsetting items.
             </p>
             <div class="button mt-4 md:mt-6">
-              <router-link class="btn btn-outline" to="/shop-v1" data-text="lihat Produk"
-                ><span>lihat Produk</span></router-link
+              <router-link class="btn btn-outline" to="/shop-v1" data-text="View Products"
+                ><span>View Products</span></router-link
               >
             </div>
           </div>
@@ -160,29 +157,35 @@
           </div>
           <h3 class="leading-none mt-4 md:mt-6 text-2xl md:text-3xl">Product Category</h3>
           <p class="mt-3">
-            <!-- Explore our curated selection of premium products, tailored to suit every need
-            and taste. From essentials to indulgences, find your perfect fit. -->
+            Explore our curated selection of premium products, tailored to suit every need
+            and taste. From essentials to indulgences, find your perfect fit.
           </p>
         </div>
 
-        <!-- GANTI SWIPER DENGAN FLEXBOX -->
         <div
-          class="max-w-[1720px] mx-auto relative group"
+          class="max-w-[1220px] mx-auto relative group"
           data-aos="fade-up"
           data-aos-delay="100"
         >
-          <div class="flex flex-wrap justify-center gap-5">
+          <div class="flex md:flex-row flex-col justify-center gap-5">
             <router-link
               v-for="(item, index) in categoryOne"
               :key="index"
               :to="`/category/${item.slug}`"
-              class="relative block w-full sm:w-[48%] md:w-[30%] lg:w-[30%] flex-shrink-0 cursor-pointer"
+              class="relative block w-full sm:w-[48%] md:w-[30%] lg:w-[25%] flex-shrink-0 cursor-pointer"
             >
-              <img class="w-full object-cover" :src="item.image" alt="product" />
+              <!-- Div pembungkus gambar dengan bentuk lingkaran -->
               <div
-                class="absolute bottom-7 left-0 px-5 transform w-full flex justify-start"
+                class="md:w-52 md:h-52 w-32 h-32 relative overflow-hidden rounded-full bg-black border shadow-lg"
               >
-                <div class="p-[15px] dark:bg-title w-auto">
+                <!-- Gambar dengan object-cover untuk menjaga proporsi dan tetap dalam lingkaran -->
+                <img class="w-full h-full object-cover" :src="item.image" alt="product" />
+              </div>
+              <!-- Teks di bawah gambar -->
+              <div
+                class="relative mt-12 bottom-7 left-0 px-5 transform w-full flex justify-start"
+              >
+                <div class="p-[5px] dark:bg-title w-full">
                   <span class="md:text-xl text-primary font-medium leading-none">
                     {{ item.item }}
                   </span>
@@ -195,7 +198,7 @@
           </div>
         </div>
 
-        <div class="text-center mt-7 md:mt-12">
+        <div class="text-center mt-7 md:mt-32">
           <router-link to="" class="btn btn-outline" data-text="All Category">
             <!-- <router-link to="/shop-v1" class="btn btn-outline" data-text="All Category"> -->
             <span>All Category</span>

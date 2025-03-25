@@ -239,21 +239,7 @@
             <li :class="current === '/our-project' ? 'active' : ''">
               <!-- <router-link to="/checkout">Checkout</router-link> -->
             </li>
-            <li
-              class="relative"
-              :class="
-                [
-                  '/blog-v1',
-                  '/blog-v2',
-                  '/blog-details-v1',
-                  '/blog-details-v2',
-                  '/blog-details-v3',
-                  '/blog-tag',
-                ].includes(current)
-                  ? 'active'
-                  : ''
-              "
-            >
+            <li class="relative">
               <router-link to="/contact">Contact Us</router-link>
               <!-- <ul
                 class="sub-menu lg:absolute z-50 lg:top-full lg:left-0 lg:min-w-[220px] lg:invisible lg:transition-all lg:bg-white lg:dark:bg-title lg:py-[15px] lg:pr-[30px]"

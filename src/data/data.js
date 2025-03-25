@@ -1,6 +1,11 @@
-import ct1 from '@/assets/img/home-v1/pdct-cgry-01.jpg'
-import ct2 from '@/assets/img/home-v1/pdct-cgry-02.jpg'
-import ct3 from '@/assets/img/home-v1/pdct-cgry-03.jpg'
+// import ct1 from '@/assets/img/home-v1/pdct-cgry-01.jpg'
+// import ct2 from '@/assets/img/home-v1/pdct-cgry-01.jpg'
+// import ct3 from '@/assets/img/home-v1/pdct-cgry-01.jpg'
+// import ct4 from '@/assets/img/home-v1/pdct-cgry-01.jpg'
+import ct1 from '@/assets/img/mirror/mirror.jpg'
+import ct2 from '@/assets/img/mirror/mirror.jpg'
+import ct3 from '@/assets/img/sofa/sofa.jpg'
+import ct4 from '@/assets/img/chair/chair1(1).jpg'
 
 import shop1 from '@/assets/img/gallery/shop-01/shop-01.jpg'
 import shop2 from '@/assets/img/gallery/shop-01/shop-02.jpg'
@@ -99,23 +104,23 @@ export const categoryOne = [
     {
         image:ct1,
         item:'5 items',
-        name:'New Seat Tools'
+        name:'Mirror'
     },
     {
         image:ct2,
         item:'13 items',
-        name:'New Seat Tools'
+        name:'Table'
     },
     {
         image:ct3,
         item:'23 items',
-        name:'New Seat Tools'
+        name:'Sofa'
     },
-    // {
-    //     image:ct1,
-    //     item:'5 items',
-    //     name:'New Seat Tools'
-    // },
+    {
+        image:ct4,
+        item:'5 items',
+        name:'Chair'
+    },
     // {
     //     image:ct2,
     //     item:'13 items',
