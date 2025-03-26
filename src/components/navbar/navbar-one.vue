@@ -86,38 +86,30 @@
             >
               <router-link to="#">Product</router-link>
               <div
-                class="mega-menu lg:absolute z-50 lg:top-full lg:left-1/2 lg:transform lg:-translate-x-1/2 lg:max-w-[1100px] lg:w-full lg:bg-white lg:dark:bg-title lg:px-[30px] lg:py-[15px] lg:flex lg:items-start lg:justify-between gap-[30px] lg:invisible lg:transition-all lg:duration-300"
+                class="mega-menu lg:absolute z-50 lg:top-full lg:left-1/2 lg:transform lg:-translate-x-1/2 lg:max-w-[490px] lg:w-full lg:bg-white lg:dark:bg-title lg:px-[30px] lg:py-[15px] lg:flex lg:items-start lg:justify-between gap-[30px] lg:invisible lg:transition-all lg:duration-300"
               >
                 <div
-                  class="lg:grid lg:grid-cols-4 lg:items-start gap-x-5 2xl:gap-x-[25px] lg:flex-1"
+                  class="lg:grid lg:grid-cols-1 lg:items-start gap-x-5 2xl:gap-x-[25px] lg:flex-1"
                 >
-                  <ul>
-                    <li>TEST DROPDOWN!</li>
-                  </ul>
-                  <!-- <div class="megamenu-item">
+                  <div class="megamenu-item">
                     <ul>
-                      <li :class="current === '/about' ? 'active' : ''">
-                        <router-link to="/about">About Us</router-link>
+                      <li :class="current === '/' ? 'active' : ''">
+                        <router-link to="/chair">Chair</router-link>
                       </li>
-                      <li :class="current === '/pricing' ? 'active' : ''">
-                        <router-link to="/pricing">Price Plan</router-link>
+                      <li :class="current === '/' ? 'active' : ''">
+                        <router-link to="/Sofa">Sofa</router-link>
                       </li>
-                      <li :class="current === '/team' ? 'active' : ''">
-                        <router-link to="/team">Team Member</router-link>
+                      <li :class="current === '/' ? 'active' : ''">
+                        <router-link to="/Mirror">Mirror</router-link>
                       </li>
-                      <li :class="current === '/our-clients' ? 'active' : ''">
-                        <router-link to="/our-clients">Clients</router-link>
+                      <li :class="current === '/' ? 'active' : ''">
+                        <router-link to="/Lamp">Lamp</router-link>
                       </li>
-                      <li :class="current === '/faq' ? 'active' : ''">
-                        <router-link to="/faq">FAQs</router-link>
-                      </li>
-                      <li :class="current === '/terms-and-conditions' ? 'active' : ''">
-                        <router-link to="/terms-and-conditions"
-                          >Terms & conditions</router-link
-                        >
+                      <li :class="current === '/' ? 'active' : ''">
+                        <router-link to="/all-product">All Products</router-link>
                       </li>
                     </ul>
-                  </div> -->
+                  </div>
                   <!-- <div class="megamenu-item">
                     <ul>
                       <li :class="current === '/portfolio-v1' ? 'active' : ''">
