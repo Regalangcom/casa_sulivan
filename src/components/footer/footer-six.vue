@@ -6,7 +6,7 @@
           class="max-w-[360px] 2xl:max-w-[298px] w-full text-left sm:text-center 2xl:text-left sm:mx-auto 2xl:mx-0"
         >
           <router-link class="cursor-pointer block" to="/" aria-label="casa sulivan">
-            <img :src="logoDark" alt="" class="dark:hidden w-[110px] sm:w-[200px]" />
+            <img :src="logoDark" alt="" class="dark:hidden w-[110px] sm:w-[110px]" />
             <img
               :src="logoLight"
               alt=""
@@ -14,15 +14,15 @@
             />
           </router-link>
           <p class="mt-[15px] hidden 2xl:block">
-            <a href="https://shreethemes.in/" target="_blank" className="ms-1"
-              >Casa Sulivan was formed in 2014 by Henry and Tania Sulivan. Henry has been
+            <a href="/" target="_blank" className=" text-sm">
+              Casa Sulivan was formed in 2014 by Henry and Tania Sulivan. Henry has been
               working with his father’s furniture manufacturing business for 25 years,
               whereas Tania has experience as a Regional Marketing Manager in a
               German-owned furniture and manufacturer, positioned in Australia & New
               Zealand.</a
             >
             <br />
-            © {{ year }} casa Sulivan <i class="fa-solid fa-heart text-red-600"></i>
+            © {{ year }} Casa Sulivan <i class="fa-solid fa-heart text-red-600"></i>
           </p>
         </div>
         <div
