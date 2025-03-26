@@ -15,9 +15,11 @@
           </router-link>
           <p class="mt-[15px] hidden 2xl:block">
             <a href="https://shreethemes.in/" target="_blank" className="ms-1"
-              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi sint
-              doloremque sunt sit corrupti facere cupiditate laboriosam itaque! Odio,
-              inventore?</a
+              >Casa Sulivan was formed in 2014 by Henry and Tania Sulivan. Henry has been
+              working with his father’s furniture manufacturing business for 25 years,
+              whereas Tania has experience as a Regional Marketing Manager in a
+              German-owned furniture and manufacturer, positioned in Australia & New
+              Zealand.</a
             >
             <br />
             © {{ year }} casa Sulivan <i class="fa-solid fa-heart text-red-600"></i>
@@ -29,6 +31,7 @@
           <div class="lg:w-[300px] sm:order-7 2xl:order-none col-span-2 md:col-span-1">
             <!-- <h4 class="leading-none mb-5 md:mb-6 text-xl">Subscribe Newsletter</h4> -->
             <div class="flex flex-col gap-[10px] sm:items-start">
+              <h5>Let us reach you!</h5>
               <input
                 class="bg-white dark:bg-dark-secondary w-full h-12 md:h-14 p-4 outline-none dark:text-white placeholder:text-title dark:placeholder:text-white"
                 type="text"

@@ -162,7 +162,7 @@
 <script setup>
 import NavbarOne from "@/components/navbar/navbar-one.vue";
 
-import bg2 from "@/assets/img/Casa-Sulivan-logo-new-brown.png";
+import bg2 from "@/assets/img/Casa-Sulivan.png";
 import { onMounted } from "vue";
 import Aos from "aos";
 // import FooterOne from "@/components/footer/footer-one.vue";

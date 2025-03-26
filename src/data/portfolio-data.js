@@ -62,35 +62,35 @@ export const portfolioTwo = [
         id:1,
         image:pp1,
         category: ["Sofa", "Interior"],
-        tag:'Hotel',
+        tag:'Custom all furniture',
         name:'PULLMAN Hotel Orchard Singapore 2023'
     },
     {
         id:2,
         image:pp2,
         category:['Interior'],
-        tag:'Art',
+        tag:'Custom all furniture',
         name:'ZODIAC'
     },
     {
         id:3,
         image:pp3,
         category:['Vase','Sofa'],
-        tag:'Bar',
+        tag:'Custom all furniture',
         name:'Phoenix Gastro Bar - PIK'
     },
     {
         id:4,
         image:pp5,
         category:['Design'],
-        tag:'chairs & sofa',
+        tag:'Custom all furniture',
         name:'ACTA Brasserie (The MAJ, Senayan)'
     },
     {
         id:5,
         image:pp4,
         category:['Table'],
-        tag:'Table',
+        tag:'Custom all furniture',
         name:'Neon Pigeon – Singapore 2023'
     },
 
@@ -98,7 +98,7 @@ export const portfolioTwo = [
         id:6,
         image:pp6,
         category:["Interior", "Vase"],
-        tag:'Full Interior',
+        tag:'Custom all furniture',
         name:'Black Pond Tavern The MAJ  Senayan'
     },
 ]
