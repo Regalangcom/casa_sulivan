@@ -3,7 +3,7 @@
 // import ct3 from '@/assets/img/home-v1/pdct-cgry-01.jpg'
 // import ct4 from '@/assets/img/home-v1/pdct-cgry-01.jpg'
 import ct1 from '@/assets/img/mirror/mirror.jpg'
-import ct2 from '@/assets/img/mirror/mirror.jpg'
+import ct2 from '@/assets/img/table/table.webp'
 import ct3 from '@/assets/img/sofa/sofa.jpg'
 import ct4 from '@/assets/img/chair/chair1(1).jpg'
 
