@@ -204,7 +204,7 @@
                   ? 'active'
                   : ''
               " -->
-              <router-link to="/our-project">Our Project</router-link>
+              <router-link to="/our-projects">Our Project</router-link>
               <!-- <ul
                 class="sub-menu lg:absolute z-50 lg:top-full lg:left-0 lg:min-w-[220px] lg:invisible lg:transition-all lg:bg-white lg:dark:bg-title lg:py-[15px] lg:pr-[30px]"
               >

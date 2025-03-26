@@ -7,7 +7,7 @@ import pp2 from '@/assets/img/zodiac/Zodiac2.png'
 import pp3 from '@/assets/img/phoenix/phoenix3.png'
 import pp4 from '@/assets/img/neonPigeon/NEON2.png'
 import pp5 from '@/assets/img/acta/acta5.png'
-import pp6 from '@/assets/img/black-pond/black-pond.png'
+import pp6 from '@/assets/img/black-pond/black-pond(1).png'
 
 
 import tpp1 from '@/assets/img/pulman/pulman2.png'

@@ -208,11 +208,11 @@
     </div>
 
     <!--  -->
-    <div class="max-w-xl mx-auto text-center" data-aos="fade-up">
-      <h3 class="leading-none mt-4 md:mt-6 text-2xl md:text-3xl">Our Project</h3>
-    </div>
     <!-- s-py-100-50 -->
-    <div class="overflow-hidden relative">
+    <div class="overflow-hidden relative s-py-100-50 bg-[#f5f5f5]">
+      <div class="max-w-xl mx-auto text-center" data-aos="fade-up">
+        <h3 class="leading-none mt-4 md:mt-6 text-2xl md:text-3xl">Our Project</h3>
+      </div>
       <div class="container-fluid">
         <div class="max-w-[1720px] mx-auto">
           <div

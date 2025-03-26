@@ -8,6 +8,7 @@ import IndexSix from '@/views/index/index-six.vue'
 import AboutUs from '@/views/inner-pages/about-us.vue'
 import PricingPage from '@/views/inner-pages/pricing-page.vue'
 import OurProjects from '@/views/inner-pages/our-project.vue'
+import OurProjects2 from '@/views/inner-pages/our-project2.vue'
 import TeamPage from '@/views/inner-pages/team-page.vue'
 import OurClients from '@/views/inner-pages/our-clients.vue'
 import FaqPage from '@/views/inner-pages/faq-page.vue'
@@ -60,6 +61,7 @@ const routes = [
   {path: '/about',component: AboutUs},
   {path: '/pricing',component: PricingPage},
   {path: '/our-project',component: OurProjects},
+  {path: '/our-projects',component: OurProjects2},
   {path: '/team',component: TeamPage},
   {path: '/our-clients',component: OurClients},
   {path: '/faq',component: FaqPage},
