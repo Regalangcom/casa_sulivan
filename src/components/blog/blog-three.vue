@@ -35,10 +35,10 @@
               >
             </li>
           </ul>
-          <h5 class="mt-3 font-normal text-xl dark:text-white leading-[1.5]">
-            <router-link to="" class="text-underline"
-              >{{ item.title }} <br />
-              {{ item.br }}
+          <h5 class="mt-3 text-xl dark:text-white leading-[1.5]">
+            <router-link to="" class="text-underline font-bold">
+              {{ item.title }} <br />
+              <span class="font-normal">{{ item.br }}</span>
             </router-link>
           </h5>
           <div class="text-center mt-7 md:mt-12">

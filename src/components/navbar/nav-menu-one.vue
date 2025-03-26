@@ -381,7 +381,7 @@
       </svg>
     </button>
     <div class="w-[1px] bg-title/20 dark:bg-white/20 h-7 hidden sm:block"></div>
-    <SwitcherS />
+    <!-- <SwitcherS /> -->
   </div>
 </template>
 
@@ -393,7 +393,7 @@ import { ref, defineProps, defineEmits } from "vue";
 // import w3 from "@/assets/img/gallery/wishList-03.jpg";
 // import w4 from "@/assets/img/gallery/wishList-04.jpg";
 // import w5 from "@/assets/img/gallery/wishList-05.jpg";
-import SwitcherS from "../switcher-s.vue";
+// import SwitcherS from "../switcher-s.vue";
 
 const wishList = ref(false);
 const cartList = ref(false);

@@ -390,13 +390,13 @@ export const teamData = [
         image:team3,
         name:'ACTA Brasserie ',
         location:'The MAJ, Senayan',
-        desc:`Sangat memuaskan, semua kebutuhan custom interior sesuai ekspektasi`
+        desc:`Very satisfying, all custom interior needs are as expected`
     },
     {
         image:team2,
         name:'PULLMAN ',
         location:'Hotel Orchard Singapore ',
-        desc:`Pilihan sofa yang variatif dan custompun bisa. CASA SULIVAN luar biasa.`
+        desc:`A variety of sofa choices and customization is also possible. CASA SULIVAN is extraordinary.`
     },
 ]
 export const blogTwoData = [

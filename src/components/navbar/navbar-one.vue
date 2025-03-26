@@ -228,9 +228,7 @@
                 </li>
               </ul>  -->
             </li>
-            <li :class="current === '/our-project' ? 'active' : ''">
-              <!-- <router-link to="/checkout">Checkout</router-link> -->
-            </li>
+
             <li class="relative">
               <router-link to="/contact">Contact Us</router-link>
               <!-- <ul

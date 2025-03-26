@@ -518,8 +518,8 @@
           <img :src="like" alt="" class="mx-auto size-16" />
           <h2 class="dark:text-white font-bold leading-none mt-4">Testimonial</h2>
           <p class="mt-3 md:mt-4">
-            Temukan apa yang dikatakan pelanggan kami tentang kami. Kisah nyata,
-            pengalaman nyata – cari tahu mengapa mereka memilih kami.
+            Find out what our customers say about us. Real stories, real experiences –
+            find out why they choose us.
           </p>
         </div>
         <ClientOne />
@@ -539,19 +539,11 @@ import NavbarOne from "@/components/navbar/navbar-one.vue";
 import like from "@/assets/img/svg/like.svg";
 import ClientOne from "@/components/client-one.vue";
 
-// import BlogSix from '@/components/blog/blog-six.vue';
-// import PartnerOne from '@/components/partner/partner-one.vue';
 import FooterSix from "@/components/footer/footer-six.vue";
 import ScrollToTop from "@/components/scroll-to-top.vue";
 import { categoryOne } from "@/data/data";
 import chair from "@/assets/img/svg/chair.svg";
-// import { Swiper, SwiperSlide } from "swiper/vue";
-// import { Autoplay, Navigation } from "swiper/modules";
 
-// import FooterOne from "@/components/footer/footer-one.vue";
-
-// import bg from "@/assets/img/shortcode/breadcumb.jpg";
-// import image1 from "@/assets/img/gallery/portfolio-03/portfolio-03.jpg";
 import BlogThree from "@/components/blog/blog-three.vue";
 import image2 from "@/assets/img/gallery/portfolio-03/portfolio-02.jpg";
 import image3 from "@/assets/img/gallery/portfolio-03/portfolio-03.jpg";
