@@ -1,19 +1,19 @@
 <template>
   <div class="s-pt-100 2xl:pb-[100px] bg-[#EBEBEB]">
-    <div class="container max-w-1666 mx-auto">
+    <div class="container md:max-w-1666 lg:max-w-1444 mx-auto">
       <div class="flex flex-col 2xl:flex-row items-start justify-between gap-10">
         <div
           class="max-w-[360px] 2xl:max-w-[298px] w-full text-left sm:text-center 2xl:text-left sm:mx-auto 2xl:mx-0"
         >
           <router-link class="cursor-pointer block" to="/" aria-label="casa sulivan">
-            <img :src="logoDark" alt="" class="dark:hidden w-[110px] sm:w-[110px]" />
+            <img :src="logoDark" alt="" class="dark:hidden w-[110px] sm:w-[190px]" />
             <img
               :src="logoLight"
               alt=""
               class="dark:block hidden w-[120px] sm:w-[200px]"
             />
           </router-link>
-          <p class="mt-[15px] hidden 2xl:block">
+          <p class="mt-[6px] hidden 2xl:block">
             <a href="/" target="_blank" className=" text-sm">
               Casa Sulivan was formed in 2014 by Henry and Tania Sulivan. Henry has been
               working with his father’s furniture manufacturing business for 25 years,
@@ -75,17 +75,21 @@
                 <a
                   class="text-underline-primary"
                   href="https://maps.app.goo.gl/c72yz3quiGEtsUXk6"
-                  >Tegalwangi, Kec. Weru, Kab. Cirebon, Jawa Barat 45154</a
+                  >Jl. Pasar Lama No. 25 Plumbon – Cirebon, West Java – Indonesia</a
                 >
               </li>
               <li class="duration-100 hover:text-primary gap-7 flex items-center group">
                 <img :src="phone" alt="" class="w-5 h-5" />
-                <a class="text-underline-primary">No kantor</a>
+                <a
+                  class="text-underline-primary font-extrabold italic animate-pulse"
+                  href="https://wa.link/afdqcm"
+                  >Hi, I am Tania. WA me</a
+                >
               </li>
               <li class="duration-100 hover:text-primary gap-7 flex items-center group">
                 <img :src="email" alt="" class="w-5 h-5" />
 
-                <a class="text-underline-primary">Email</a>
+                <a class="text-underline-primary">mhsulivan@yahoo.com</a>
               </li>
             </ul>
           </div>
@@ -122,11 +126,11 @@
 
 <script setup>
 import { ref } from "vue";
-import logoDark from "@/assets/img/icon/Casa-Sulivan.png";
+import logoDark from "@/assets/img/Casa-Sulivan-logo-new-brown.png";
 import logoLight from "@/assets/img/svg/logo-light.svg";
 import maps from "@/assets/img/icon/maps-and-flags.svg";
 import email from "@/assets/img/icon/post-office.svg";
-import phone from "@/assets/img/icon/phone.svg";
+import phone from "@/assets/img/icon/whatsappMono.svg";
 
 import { footerLink2 } from "@/data/nav-data";
 
