@@ -171,7 +171,7 @@
             <router-link
               v-for="(item, index) in categoryOne"
               :key="index"
-              :to="`/category/${item.slug}`"
+              :to="`/product-category/${item.slug}`"
               class="relative block w-full sm:w-[48%] md:w-[30%] lg:w-[25%] flex-shrink-0 cursor-pointer"
             >
               <!-- Div pembungkus gambar dengan bentuk lingkaran -->

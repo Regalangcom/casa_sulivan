@@ -109,6 +109,7 @@ const routes = [
   {path: '/blog-tag',component:BlogTag},
   {path: '/contact',component:ContactPage},
   {path: '/product-category',component:ProductCategory},
+  {path: '/product-category/:slug',component:ProductCategory},
 ]
 
 const router = createRouter({

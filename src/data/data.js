@@ -7,16 +7,16 @@ import ct2 from '@/assets/img/table/table.webp'
 import ct3 from '@/assets/img/sofa/sofa.jpg'
 import ct4 from '@/assets/img/chair/chair1(1).jpg'
 
-import shop1 from '@/assets/img/gallery/shop-01/shop-01.jpg'
-import shop2 from '@/assets/img/gallery/shop-01/shop-02.jpg'
-import shop3 from '@/assets/img/gallery/shop-01/shop-03.jpg'
-import shop4 from '@/assets/img/gallery/shop-01/shop-04.jpg'
-import shop5 from '@/assets/img/gallery/shop-01/shop-05.jpg'
-import shop6 from '@/assets/img/gallery/shop-01/shop-06.jpg'
-import shop7 from '@/assets/img/gallery/shop-01/shop-07.jpg'
-import shop8 from '@/assets/img/gallery/shop-01/shop-08.jpg'
-import shop9 from '@/assets/img/gallery/shop-01/shop-09.jpg'
-import shop10 from '@/assets/img/gallery/shop-01/shop-10.jpg'
+import shop1 from '@/assets/img/chair/ALEX_CHAIR.webp'
+import shop2 from '@/assets/img/chair/ANTONIO_ARMCHAIR.webp'
+import shop3 from '@/assets/img/chair/Ben_Chair.webp'
+import shop4 from '@/assets/img/chair/BORNEO_HANGING_CHAIR.webp'
+import shop5 from '@/assets/img/chair/MORY_CHAIR_DARK_GREY.webp'
+import shop6 from '@/assets/img/table/CASABIA_NESTED_TABLE.webp'
+import shop7 from '@/assets/img/table/COFFEE_TABLE_INDUSTRIA.webp'
+import shop8 from '@/assets/img/table/GLEN_DINING_TABLE.webp'
+import shop9 from '@/assets/img/table/LYON_NESTED_TABLE_SMALL.webp'
+import shop10 from '@/assets/img/table/PEACOCK_SIDE_TABLE.webp'
 
 import fea1 from '@/assets/img/svg/fea-1.svg'
 import fea2 from '@/assets/img/svg/fea-2.svg'
@@ -100,124 +100,122 @@ import shop07 from '@/assets/img/gallery/shop-04/shop-07.jpg'
 import shop08 from '@/assets/img/gallery/shop-04/shop-08.jpg'
 import shop09 from '@/assets/img/gallery/shop-04/shop-09.jpg'
 
-export const categoryOne = [
-    {
-        image:ct1,
-        item:'5 items',
-        name:'Mirror'
-    },
-    {
-        image:ct2,
-        item:'13 items',
-        name:'Table'
-    },
-    {
-        image:ct3,
-        item:'23 items',
-        name:'Sofa'
-    },
-    {
-        image:ct4,
-        item:'5 items',
-        name:'Chair'
-    },
-    // {
-    //     image:ct2,
-    //     item:'13 items',
-    //     name:'New Seat Tools'
-    // },
-    // {
-    //     image:ct3,
-    //     item:'23 items',
-    //     name:'New Seat Tools'
-    // },
-    
-]
+    export const categoryOne = [
+        {
+            id: 1,
+            image:ct1,
+            item:'5 items',
+            name:'Mirror',
+            slug : "mirror"
+        },
+        {
+            id : 2,
+            image:ct2,
+            item:'13 items',
+            name:'Table',
+            slug : "table"
+        },
+        {
+            id : 3,
+            image:ct3,
+            item:'23 items',
+            name:'Sofa',
+            slug : "sofa"
+        },
+        {
+            id : 4,
+            image:ct4,
+            item:'5 items',
+            name:'Chair',
+            slug : "chair"
+        },
+
+    ]
 
 export const productList = [
     {
         id:1,
         image:shop1,
-        tag:'Hot Sale',
-        price:'$25.75',
-        name:'White Minimal Chair'
+        tag:'',
+        price:'',
+        name:'Alex Chair',
+        categorySlug : "chair"
     },
     {
         id:2,
         image:shop2,
-        tag:'NEW',
-        price:'$122.75',
-        name:'Preminu Luxury Sofa'
+        tag:'',
+        // tag:'NEW',
+        price:'',
+        name:'Antonio ArmChair',
+        categorySlug : "chair"
     },
     {
         id:3,
         image:shop3,
-        tag:'10% OFF',
-        price:'$140.99',
-        name:'Table With Pops'
+        tag:'',
+        // tag:'10% OFF',
+        price:'',
+        name:'Ben Chair',
+        categorySlug : "chair"
     },
     {
         id:4,
         image:shop4,
         tag:'',
-        price:'$122.75',
-        name:'Luxury Lamp for Wall'
+        price:'',
+        name:'Borneo Hanging Chair',
+        categorySlug : "chair",
     },
     {
         id:5,
         image:shop5,
-        tag:'Hot Sale',
-        price:'$140.99',
-        name:'White Minimal Chair'
+        tag:'',
+        // tag:'Hot Sale',
+        price:'',
+        name:'Mory Chair Dark Grey',
+        categorySlug : "chair"
     },
     {
         id:6,
         image:shop6,
         tag:'',
-        price:'$122.75',
-        name:'Luxury Vase for Table'
+        price:'',
+        name:'CASABIA_NESTED_TABLE',
+        categorySlug : "table",
     },
     {
         id:7,
         image:shop7,
         tag:'',
-        price:'$122.75 - $140.99',
-        name:'New Modern Luxury Table with Pops Lorem ipsum Furniture'
+        price:'',
+        name:'COFFEE_TABLE_INDUSTRIA',
+        categorySlug : "table"
+
     },
     {
         id:8,
         image:shop8,
-        tag:'10% OFF',
-        price:'$122.75',
-        name:'Modern Logn Table'
+        tag:'',
+        price:'',
+        name:'GLEN_DINING_TABLE',
+        categorySlug : "table"
     },
     {
         id:9,
         image:shop9,
         tag:'',
-        price:'$122.75',
-        name:'Luxury Lamp for Wall'
+        price:'',
+        name:'LYON_NESTED_TABLE_SMALL',
+        categorySlug : "table"
     },
     {
         id:10,
         image:shop10,
         tag:'',
-        price:'$122.75',
-        name:'Luxury Lamp for Wall'
-    },
-    {
-        id:11,
-        image:shop1,
-        tag:'',
-        price:'$122.75',
-        name:'Luxury Lamp for Wall'
-    },
-    {
-        id:12,
-        image:shop2,
-        tag:'',
-        price:'$122.75',
-        name:'White Minimal Chair'
+        price:'',
+        name:'PEACOCK_SIDE_TABLE',
+        categorySlug : "table"
     },
 ]
 
