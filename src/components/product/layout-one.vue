@@ -3,7 +3,7 @@
     <div v-for="(item, index) in productList" :key="index" class="group">
       <div class="relative overflow-hidden">
         <!-- /product-details/${item.id} -->
-        <router-link :to="``">
+        <router-link :to="`/product-details/${item.id}`">
           <img
             class="w-full h-64 object-contain transform group-hover:scale-110 duration-300"
             :src="item.image"
@@ -56,7 +56,9 @@
         </div>
       </div>
       <div class="md:px-2 lg:px-4 xl:px-6 lg:pt-6 pt-5 flex gap-4 md:gap-5 flex-col">
-        <h4 class="font-medium leading-none dark:text-white text-lg">{{ item.price }}</h4>
+        <h4 class="font-medium leading-none dark:text-white text-lg">
+          Rp. {{ item.price }}
+        </h4>
         <div>
           <h5 class="font-normal dark:text-white text-xl leading-[1.5]">
             <router-link :to="`/product-details/${item.id}`" class="text-underline">
