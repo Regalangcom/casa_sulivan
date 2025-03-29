@@ -167,12 +167,14 @@
           data-aos="fade-up"
           data-aos-delay="100"
         >
-          <div class="flex md:flex-row flex-col justify-center gap-5">
+          <div
+            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 justify-items-center"
+          >
             <router-link
               v-for="(item, index) in categoryOne"
               :key="index"
               :to="`/product-category/${item.slug}`"
-              class="relative block w-full sm:w-[48%] md:w-[30%] lg:w-[25%] flex-shrink-0 cursor-pointer"
+              class="relative block w-full flex flex-col items-center"
             >
               <!-- Div pembungkus gambar dengan bentuk lingkaran -->
               <div
@@ -182,14 +184,16 @@
                 <img class="w-full h-full object-cover" :src="item.image" alt="product" />
               </div>
               <!-- Teks di bawah gambar -->
-              <div
-                class="relative mt-12 bottom-7 left-0 px-5 transform w-full flex justify-start"
-              >
+              <div class="relative mt-12 bottom-7 left-0 px-5 transform w-full">
                 <div class="p-[5px] dark:bg-title w-full">
-                  <span class="md:text-xl text-primary font-medium leading-none">
+                  <span
+                    class="md:text-xl text-primary font-medium leading-none block text-center md:text-left"
+                  >
                     {{ item.item }}
                   </span>
-                  <h4 class="text-xl md:text-2xl mt-[10px] font-semibold leading-[1.5]">
+                  <h4
+                    class="text-xl md:text-2xl mt-[10px] font-semibold leading-[1.5] text-center md:text-left"
+                  >
                     {{ item.name }}
                   </h4>
                 </div>

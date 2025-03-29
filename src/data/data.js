@@ -137,7 +137,7 @@ export const productList = [
         id:1,
         image:shop1,
         tag:'',
-        price:'',
+        price:'1,350,000.00',
         name:'Alex Chair',
         categorySlug : "chair"
     },
@@ -155,7 +155,7 @@ export const productList = [
         image:shop3,
         tag:'',
         // tag:'10% OFF',
-        price:'',
+        price:'1.400.000',
         name:'Ben Chair',
         categorySlug : "chair"
     },
@@ -205,7 +205,7 @@ export const productList = [
         id:9,
         image:shop9,
         tag:'',
-        price:'',
+        price:'500,000.00',
         name:'LYON_NESTED_TABLE_SMALL',
         categorySlug : "table"
     },
@@ -733,33 +733,33 @@ export const productTag = [
 
 export const venderInfo = [
     {
-        name:'John Furniture House',
-        vendor:'John Smith Doe',
-        shop:'West New York, NY, 1234589',
-        mail:'johnmsmith@gmail.com',
-        call:'+11 - 01234 5678'
+        name:'',
+        vendor:'',
+        shop:'',
+        mail:'',
+        call:''
     },
     {
-        name:'Furniture Gallery',
-        vendor:'John Smith Doe',
-        shop:'West New York, NY, 1234589',
-        mail:'johnmsmith@gmail.com',
-        call:'+11 - 01234 5678'
+        name:'',
+        vendor:'',
+        shop:'',
+        mail:'',
+        call:''
     },
 ]
 
 export const detailReview = [
     {
-        name:'Merlina Quexy',
-        desc:`Furnixar's products have transformed my living space with their stylish designs and impeccable craftsmanship.`
+        name:'',
+        desc:`Casa sulivan products have transformed my living space with their stylish designs and impeccable craftsmanship.`
     },
     {
-        name:'Merlina Quexy',
-        desc:`Furnixar's products have transformed my living space with their stylish designs and impeccable craftsmanship.`
+        name:'',
+        desc:`Casa sulivan products have transformed my living space with their stylish designs and impeccable craftsmanship.`
     },
     {
-        name:'Merlina Quexy',
-        desc:`Furnixar's products have transformed my living space with their stylish designs and impeccable craftsmanship.`
+        name:'',
+        desc:`Casa sulivan products have transformed my living space with their stylish designs and impeccable craftsmanship.`
     },
 ]
 
