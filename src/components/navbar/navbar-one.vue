@@ -91,68 +91,11 @@
               <router-link to="/about">About Us</router-link>
             </li>
             <li class="relative">
-              <!-- :class="
-                [
-                  '/shop-v1',
-                  '/shop-v2',
-                  '/shop-v3',
-                  '/shop-v4',
-                  '/product-details',
-                  '/cart',
-                  '/checkout',
-                ].includes(current)
-                  ? 'active'
-                  : ''
-              " -->
               <router-link to="/our-projects">Our Project</router-link>
-              <!-- <ul
-                class="sub-menu lg:absolute z-50 lg:top-full lg:left-0 lg:min-w-[220px] lg:invisible lg:transition-all lg:bg-white lg:dark:bg-title lg:py-[15px] lg:pr-[30px]"
-              >
-                <li :class="current === '/shop-v1' ? 'active' : ''">
-                  <router-link to="/shop-v1">Shop Layout 01</router-link>
-                </li>
-                <li :class="current === '/shop-v2' ? 'active' : ''">
-                  <router-link to="/shop-v2">Shop Layout 02</router-link>
-                </li>
-                <li :class="current === '/shop-v3' ? 'active' : ''">
-                  <router-link to="/shop-v3">Shop Layout 03</router-link>
-                </li>
-                <li :class="current === '/shop-v4' ? 'active' : ''">
-                  <router-link to="/shop-v4">Shop Layout 04</router-link>
-                </li>
-                <li :class="current === '/product-details' ? 'active' : ''">
-                  <router-link to="/product-details">Product Details</router-link>
-                </li>
-                <li :class="current === '/cart' ? 'active' : ''">
-                  <router-link to="/cart">My Cart</router-link>
-                </li>
-              </ul>  -->
             </li>
 
             <li class="relative">
               <router-link to="/contact">Contact Us</router-link>
-              <!-- <ul
-                class="sub-menu lg:absolute z-50 lg:top-full lg:left-0 lg:min-w-[220px] lg:invisible lg:transition-all lg:bg-white lg:dark:bg-title lg:py-[15px] lg:pr-[30px]"
-              >
-                <li :class="current === '/blog-v1' ? 'active' : ''">
-                  <router-link to="/blog-v1">Blog Layout 1</router-link>
-                </li>
-                <li :class="current === '/blog-v2' ? 'active' : ''">
-                  <router-link to="/blog-v2">Blog Layout 2</router-link>
-                </li>
-                <li :class="current === '/blog-details-v1' ? 'active' : ''">
-                  <router-link to="/blog-details-v1">Blog Details 1</router-link>
-                </li>
-                <li :class="current === '/blog-details-v2' ? 'active' : ''">
-                  <router-link to="/blog-details-v2">Blog Details 2</router-link>
-                </li>
-                <li :class="current === '/blog-details-v3' ? 'active' : ''">
-                  <router-link to="/blog-details-v3">Blog Details 3</router-link>
-                </li>
-                <li :class="current === '/blog-tag' ? 'active' : ''">
-                  <router-link to="/blog-tag">Blog Tag</router-link>
-                </li>
-              </ul> -->
             </li>
             <li :class="current === '/contact' ? 'active' : ''">
               <!-- <router-link to="/">Contact</router-link> -->

@@ -27,21 +27,13 @@
             class="lg:bg-[#F8F8F9] lg:dark:bg-dark-secondary lg:pr-10 2xl:pr-0 relative"
           >
             <div class="h-full block">
-              <div v-if="activeTab === 1">
-                <img class="object-cover w-full" :src="banner1" alt="about" />
-              </div>
+              <!-- <div v-if="activeTab === 1"> -->
+              <img class="object-cover w-full" :src="banner1" alt="about" />
+              <!-- </div> -->
             </div>
             <div
               class="absolute xl:bottom-[50%] bottom-0 left-[50%] xl:right-0 translate-x-[-50%] 2xl:translate-x-[83%] xl:translate-x-[73%] translate-y-[115%] xl:translate-y-[50%] z-[9999] xl:inline-block flex gap-1"
             >
-              <div @click="activeTab = 1">
-                <img
-                  class="object-cover h-[70px] w-[70px] md:h-[140px] md:w-[140px] lg:h-[140px] lg:w-[140px]"
-                  :class="activeTab === 1 ? 'border-[#bb976d] border-4' : ''"
-                  :src="banner1"
-                  alt="about"
-                />
-              </div>
               <!-- <div @click="activeTab = 2">
                 <img
                   class="object-cover h-[70px] w-[70px] md:h-[140px] md:w-[140px] lg:h-[140px] lg:w-[140px] xl:my-2 my-0"
@@ -60,20 +52,27 @@
                 Our Story Casa Sulivan
               </h3>
               <p class="mt-3 text-base sm:text-lg">
-                ACasa Sulivan was formed in 2014 by Henry and Tania Sulivan. Henry has
+                A Casa Sulivan was formed in 2014 by Henry and Tania Sulivan.Henry has
                 been working with his father’s furniture manufacturing business for 25
                 years, whereas Tania has experience as a Regional Marketing Manager in a
                 German-owned furniture and manufacturer, positioned in Australia & New
-                Zealand. Since the beginning, it is clear that the company offers
-                distinctive customized furniture for commercial and residential as well as
-                hospitality projects in both local and International market, with clients
-                as far as Dubai, Germany, and Australia Despite relatively new, Casa
-                Sulivan is run by old hands, our staff brings more than 25 years of
-                experience in furniture manufacturing and exports. Casa Sulivan have team
-                members who are not only skilled and motivated, but takes great pride in
-                their work and committed to produce custom quality products. Casa Sulivan
-                aims to bring great quality furniture with competitive prices, while
-                staying ahead in the changing market.
+                Zealand. <br />
+                <br />
+                Since the beginning, it is clear that the company offers distinctive
+                customized furniture for commercial and residential as well as hospitality
+                projects in both local and International market, with clients as far as
+                Dubai, Germany, and Australia <br />
+                <br />
+                Despite relatively new, Casa Sulivan is run by old hands, our staff brings
+                more than 25 years of experience in furniture manufacturing and exports.
+                <br />
+                <br />
+                Casa Sulivan have team members who are not only skilled and motivated, but
+                takes great pride in their work and committed to produce custom quality
+                products. <br />
+                <br />
+                Casa Sulivan aims to bring great quality furniture with competitive
+                prices, while staying ahead in the changing market.
               </p>
               <p class="mt-3 text-base sm:text-lg">
                 <!-- Over the years, our dedication to innovation and customer satisfaction has
@@ -101,31 +100,6 @@
             premium products and a seamless shopping experience.
           </p>
         </div>
-        <!-- <div
-          class="max-w-sm sm:max-w-[1720px] mx-auto grid sm:grid-cols-2 md:grid-cols-3 xl:flex lg:justify-between gap-7 flex-wrap lg:flex-nowrap"
-          data-aos="fade-up"
-          data-aos-delay="100"
-        >
-          <div
-            v-for="(item, index) in featureOne"
-            :key="index"
-            class="p-6 pb-0 rounded-[10px] relative"
-          >
-            <div
-              class="w-[1px] h-[120px] absolute right-0 top-[30%]"
-              :class="
-                item.id === 5
-                  ? ''
-                  : 'hidden 2xl:block border-l border-dashed border-primary'
-              "
-            ></div>
-            <img :src="item.image" alt="" class="size-12" />
-            <h5 class="font-semibold text-xl md:text-2xl mt-3 md:mt-7">
-              {{ item.title }}
-            </h5>
-            <p class="mt-2 sm:mt-3">{{ item.desc }}</p>
-          </div>
-        </div> -->
         <div class="bg-[#EBEBEB] dark:bg-title s-py-100" data-aos="fade-up">
           <div class="container">
             <div class="max-w-1666 mx-auto">
@@ -240,22 +214,19 @@
 import { onMounted, ref } from "vue";
 
 import NavbarOne from "@/components/navbar/navbar-one.vue";
-// import PartnerOne from "@/components/partner/partner-one.vue";
 import FooterOne from "@/components/footer/footer-six.vue";
 import ScrollToTop from "@/components/scroll-to-top.vue";
 
 import bg from "@/assets/img/shortcode/breadcumb.jpg";
 import bg2 from "@/assets/img/about/video-bg.jpg";
 import like from "@/assets/img/svg/like.svg";
-// import hand from "@/assets/img/svg/hand.svg";
 import banner1 from "@/assets/img/pulman/pulman1(1).png";
-// import banner2 from "@/assets/img/pulman/pulman2.png";
 
 import Aos from "aos";
 // import { featureOne } from "@/data/data";
 import { servicesData } from "@/data/index-three";
 
-const activeTab = ref(1);
+// const activeTab = ref(1);
 const open = ref(false);
 
 onMounted(() => {
