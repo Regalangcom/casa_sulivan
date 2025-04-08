@@ -1,9 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-// import IndexOne from '@/views/index/index-one.vue'
-// import IndexTwo from '@/views/index/index-two.vue'
-// import IndexThree from '@/views/index/index-three.vue'
-// import IndexFour from '@/views/index/index-four.vue'
-// import IndexFive from '@/views/index/index-five.vue'
+
 import IndexSix from '@/views/index/index-six.vue'
 import AboutUs from '@/views/inner-pages/about-us.vue'
 import PricingPage from '@/views/inner-pages/pricing-page.vue'
@@ -18,27 +14,11 @@ import PortfolioV2 from '@/views/portfolio/portfolio-v2.vue'
 import PortfolioV3 from '@/views/portfolio/portfolio-v3.vue'
 import PortfolioDetailsV1 from '@/views/portfolio/portfolio-details-v1.vue'
 import PortfolioDetailsV2 from '@/views/portfolio/portfolio-details-v2.vue'
-import ErrorPage from '@/views/special/error-page.vue'
-import MyProfile from '@/views/profile/my-profile.vue'
-import MyAccount from '@/views/profile/my-account.vue'
-import EditAccount from '@/views/profile/edit-account.vue'
-import OrderHistory from '@/views/profile/order-history.vue'
-import WishlistPage from '@/views/profile/wishlist-page.vue'
-import LoginPage from '@/views/auth/login-page.vue'
-import RegisterPage from '@/views/auth/register-page.vue'
-import ForgerPassword from '@/views/auth/forger-password.vue'
-import ComingSoon from '@/views/special/coming-soon.vue'
-import ThankYou from '@/views/special/thank-you.vue'
-import ShippingMethod from '@/views/shop/shipping-method.vue'
-import PaymentMethod from '@/views/shop/payment-method.vue'
-import InvoicePage from '@/views/shop/invoice-page.vue'
+
 import PaymentConfirmation from '@/views/shop/payment-confirmation.vue'
 import PaymentSuccess from '@/views/shop/payment-success.vue'
 import PaymentFailure from '@/views/shop/payment-failure.vue'
 import ShopV1 from '@/views/shop/shop-v1.vue'
-import ShopV2 from '@/views/shop/shop-v2.vue'
-import ShopV3 from '@/views/shop/shop-v3.vue'
-import ShopV4 from '@/views/shop/shop-v4.vue'
 import ProductDetails from '@/views/shop/product-details.vue'
 import ShopCart from '@/views/shop/shop-cart.vue'
 import CheckoutPage from '@/views/shop/checkout-page.vue'
@@ -73,27 +53,10 @@ const routes = [
   {path: '/portfolio-details-v1/:id',component: PortfolioDetailsV1},
   {path: '/portfolio-details-v2',component: PortfolioDetailsV2},
   {path: '/portfolio-details-v2/:id',component: PortfolioDetailsV2},
-  {path: '/error',component: ErrorPage},
-  {path: '/my-profile',component: MyProfile},
-  {path: '/my-account',component: MyAccount},
-  {path: '/edit-account',component: EditAccount},
-  {path: '/order-history',component: OrderHistory},
-  {path: '/wishlist',component: WishlistPage},
-  {path: '/login',component:LoginPage},
-  {path: '/register',component:RegisterPage},
-  {path: '/forger-password',component:ForgerPassword},
-  {path: '/coming-soon',component:ComingSoon},
-  {path: '/thank-you',component:ThankYou},
-  {path: '/shipping-method',component:ShippingMethod},
-  {path: '/payment-method',component:PaymentMethod},
-  {path: '/invoice',component:InvoicePage},
   {path: '/payment-confirmation',component:PaymentConfirmation},
   {path: '/payment-success',component:PaymentSuccess},
   {path: '/payment-failure',component:PaymentFailure},
   {path: '/shop-v1',component:ShopV1},
-  {path: '/shop-v2',component:ShopV2},
-  {path: '/shop-v3',component:ShopV3},
-  {path: '/shop-v4',component:ShopV4},
   {path: '/product-details',component:ProductDetails},
   {path: '/product-details/:id',component:ProductDetails},
   {path: '/cart',component:ShopCart},

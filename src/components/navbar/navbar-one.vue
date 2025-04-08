@@ -52,38 +52,7 @@
                 </li>
               </ul> -->
             </li>
-            <li
-              :class="
-                [
-                  '/about',
-                  '/pricing',
-                  '/team',
-                  '/our-clients',
-                  '/faq',
-                  '/terms-and-conditions',
-                  '/portfolio-v1',
-                  '/portfolio-v2',
-                  '/portfolio-v3',
-                  '/portfolio-details-v1',
-                  '/portfolio-details-v2',
-                  '/error',
-                  '/my-profile',
-                  '/login',
-                  '/register',
-                  '/forger-password',
-                  '/coming-soon',
-                  '/thank-you',
-                  '/shipping-method',
-                  '/payment-method',
-                  '/invoice',
-                  '/payment-confirmation',
-                  '/payment-success',
-                  '/payment-failure',
-                ].includes(current)
-                  ? 'active'
-                  : ''
-              "
-            >
+            <li :class="['/product'].includes(current) ? 'active' : ''">
               <router-link to="#">Product</router-link>
               <div
                 class="mega-menu lg:absolute z-50 lg:top-full lg:left-1/2 lg:transform lg:-translate-x-1/2 lg:max-w-[490px] lg:w-full lg:bg-white lg:dark:bg-title lg:px-[30px] lg:py-[15px] lg:flex lg:items-start lg:justify-between gap-[30px] lg:invisible lg:transition-all lg:duration-300"
@@ -110,78 +79,6 @@
                       </li>
                     </ul>
                   </div>
-                  <!-- <div class="megamenu-item">
-                    <ul>
-                      <li :class="current === '/portfolio-v1' ? 'active' : ''">
-                        <router-link to="/portfolio-v1">Portolfio 1</router-link>
-                      </li>
-                      <li :class="current === '/portfolio-v2' ? 'active' : ''">
-                        <router-link to="/portfolio-v2">Portolfio 2</router-link>
-                      </li>
-                      <li :class="current === '/portfolio-v3' ? 'active' : ''">
-                        <router-link to="/portfolio-v3">Portolfio 3</router-link>
-                      </li>
-                      <li :class="current === '/portfolio-details-v1' ? 'active' : ''">
-                        <router-link to="/portfolio-details-v1"
-                          >Portolfio details 1</router-link
-                        >
-                      </li>
-                      <li :class="current === '/portfolio-details-v2' ? 'active' : ''">
-                        <router-link to="/portfolio-details-v2"
-                          >Portolfio details 2</router-link
-                        >
-                      </li>
-                      <li :class="current === '/error' ? 'active' : ''">
-                        <router-link to="/error">404 Error</router-link>
-                      </li>
-                    </ul>
-                  </div> -->
-                  <!-- <div class="megamenu-item">
-                    <ul>
-                      <li :class="current === '/my-profile' ? 'active' : ''">
-                        <router-link to="/my-profile">My Profile</router-link>
-                      </li>
-                      <li :class="current === '/login' ? 'active' : ''">
-                        <router-link to="/login">Login</router-link>
-                      </li>
-                      <li :class="current === '/register' ? 'active' : ''">
-                        <router-link to="/register">Register</router-link>
-                      </li>
-                      <li :class="current === '/forger-password' ? 'active' : ''">
-                        <router-link to="/forger-password">Forget Password</router-link>
-                      </li>
-                      <li :class="current === '/coming-soon' ? 'active' : ''">
-                        <router-link to="/coming-soon">Coming Soon</router-link>
-                      </li>
-                      <li :class="current === '/thank-you' ? 'active' : ''">
-                        <router-link to="/thank-you">Thank you</router-link>
-                      </li>
-                    </ul>
-                  </div> -->
-                  <!-- <div class="megamenu-item">
-                    <ul>
-                      <li :class="current === '/shipping-method' ? 'active' : ''">
-                        <router-link to="/shipping-method">Shipping Method</router-link>
-                      </li>
-                      <li :class="current === '/payment-method' ? 'active' : ''">
-                        <router-link to="/payment-method">Payment Method</router-link>
-                      </li>
-                      <li :class="current === '/invoice' ? 'active' : ''">
-                        <router-link to="/invoice">Invoice</router-link>
-                      </li>
-                      <li :class="current === '/payment-confirmation' ? 'active' : ''">
-                        <router-link to="/payment-confirmation"
-                          >Payment Confirmation</router-link
-                        >
-                      </li>
-                      <li :class="current === '/payment-success' ? 'active' : ''">
-                        <router-link to="/payment-success">Payment Completed</router-link>
-                      </li>
-                      <li :class="current === '/payment-failure' ? 'active' : ''">
-                        <router-link to="/payment-failure">Payment Failure</router-link>
-                      </li>
-                    </ul>
-                  </div> -->
                 </div>
                 <div class="lg:py-[15px] lg:max-w-[280px] w-full hidden lg:block">
                   <router-link to="shop-v1.html">
@@ -189,6 +86,9 @@
                   </router-link>
                 </div>
               </div>
+            </li>
+            <li :class="['/about'].includes(current) ? 'active' : ''">
+              <router-link to="/about">About Us</router-link>
             </li>
             <li class="relative">
               <!-- :class="
