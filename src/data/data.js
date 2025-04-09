@@ -9,7 +9,10 @@ import ct4 from '@/assets/img/chair/chair1(1).jpg'
 
 import shop1 from '@/assets/img/chair/ALEX_CHAIR.webp'
 import shop2 from '@/assets/img/chair/ANTONIO_ARMCHAIR.webp'
-import shop3 from '@/assets/img/chair/Ben_Chair.webp'
+import shop3 from '@/assets/img/chair/BEN_CHAIR/Ben_Chair.webp'
+import shop3_1 from '@/assets/img/chair/BEN_CHAIR/Screenshot_(182).png'
+import shop3_2 from '@/assets/img/chair/BEN_CHAIR/Screenshot_(186).png'
+import shop3_3 from '@/assets/img/chair/BEN_CHAIR/Screenshot_(187).png'
 import shop4 from '@/assets/img/chair/BORNEO_HANGING_CHAIR.webp'
 import shop5 from '@/assets/img/chair/MORY_CHAIR_DARK_GREY.webp'
 import shop6 from '@/assets/img/table/CASABIA_NESTED_TABLE.webp'
@@ -216,6 +219,30 @@ export const productList = [
         price:'',
         name:'PEACOCK_SIDE_TABLE',
         categorySlug : "table"
+    },
+    {
+        id:11,
+        image:shop3_1,
+        tag:'',
+        price:'1.400.000',
+        name:'Ben Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:12,
+        image:shop3_2,
+        tag:'',
+        price:'1.400.000',
+        name:'Ben Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:13,
+        image:shop3_3,
+        tag:'',
+        price:'1.400.000',
+        name:'Ben Chair',
+        categorySlug : "chair"
     },
 ]
 

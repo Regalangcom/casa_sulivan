@@ -1,6 +1,6 @@
 <template>
   <div :class="classList">
-    <div v-for="(item, index) in productList" :key="index" class="group">
+    <div v-for="item in productList" :key="item.id" class="group">
       <div class="relative overflow-hidden">
         <!-- /product-details/${item.id} -->
         <router-link :to="`/product-details/${item.id}`">
@@ -28,7 +28,7 @@
           v-if="item.tag === '10% OFF'"
           class="absolute z-10 top-7 left-7 pt-[10px] pb-2 px-3 bg-[#E13939] rounded-[30px] font-primary text-[14px] text-white font-semibold leading-none"
         >
-          10% OFF
+          <!-- 10% OFF -->
         </div>
         <div
           class="absolute z-10 top-[50%] right-3 transform -translate-y-[40%] opacity-0 duration-300 transition-all group-hover:-translate-y-1/2 group-hover:opacity-100 flex flex-col items-end gap-3"

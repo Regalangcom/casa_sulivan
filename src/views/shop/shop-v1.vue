@@ -19,7 +19,6 @@
         </ul>
       </div>
     </div>
-
     <div class="s-py-100">
       <div class="container-fluid">
         <div
@@ -71,7 +70,7 @@
                   <div class="relative">
                     <span
                       class="text-title dark:text-white font-medium leading-none absolute left-0 top-1/2 block transform -translate-y-1/2"
-                      >$</span
+                      >Rp.</span
                     >
                     <input
                       class="pl-[10px] w-full appearance-none bg-transparent text-title dark:text-white font-medium leading-none placeholder:text-title dark:placeholder:text-white placeholder placeholder:font-medium placeholder:leading-none outline-none"
@@ -90,13 +89,13 @@
                   <div class="relative">
                     <span
                       class="text-title dark:text-white font-medium leading-none absolute left-0 top-1/2 block transform -translate-y-1/2"
-                      >$</span
+                      >Rp.</span
                     >
                     <input
                       class="pl-[10px] w-full appearance-none bg-transparent text-title dark:text-white font-medium leading-none placeholder:text-title dark:placeholder:text-white placeholder:font-medium placeholder:leading-none outline-none"
                       type="number"
                       placeholder="100"
-                      value="100"
+                      value=""
                     />
                   </div>
                 </div>
@@ -152,7 +151,7 @@
 import { onMounted, ref } from "vue";
 import NavbarOne from "@/components/navbar/navbar-one.vue";
 import LayoutOne from "@/components/product/layout-one.vue";
-import FooterOne from "@/components/footer/footer-one.vue";
+import FooterOne from "@/components/footer/footer-six.vue";
 import ScrollToTop from "@/components/scroll-to-top.vue";
 
 import bg from "@/assets/img/shortcode/breadcumb.jpg";

@@ -16,7 +16,7 @@
           <li>/</li>
           <li><router-link to="/shop-v1">Shop</router-link></li>
           <li>/</li>
-          <li class="text-primary">Room Interior</li>
+          <li class="text-primary">Room Category</li>
         </ul>
       </div>
     </div>
@@ -87,33 +87,38 @@ import { productList } from "@/data/data";
 import Aos from "aos";
 import { useRoute } from "vue-router";
 
-onMounted(() => {
-  Aos.init();
-});
-
 const category = ref(null);
 const filterProducts = ref([]);
-// Define reactive variables using ref
-
 const route = useRoute();
 const slug = ref(route.params.slug);
 
-// Function to filter products based on id
+// Modifikasi function filter
 const filterProductsAndCategory = () => {
   category.value = categoryOne.find((c) => c.slug === slug.value);
 
   if (category.value) {
-    // Memfilter produk berdasarkan categorySlug
-    filterProducts.value = productList.filter(
+    // Pertama filter berdasarkan category
+    const filteredByCategory = productList.filter(
       (product) => product.categorySlug === category.value.slug
     );
+
+    // Kemudian group berdasarkan nama produk
+    const groupedProducts = filteredByCategory.reduce((acc, product) => {
+      // Jika ini produk pertama dengan nama tersebut
+      if (!acc.find((p) => p.name === product.name)) {
+        // Tambahkan produk dengan array variants
+        acc.push({
+          ...product,
+          variants: filteredByCategory.filter((p) => p.name === product.name),
+        });
+      }
+      return acc;
+    }, []);
+
+    filterProducts.value = groupedProducts;
   }
 };
 
-console.log("data", filterProductsAndCategory);
-console.log("data2", filterProducts);
-
-// Initialize AOS on mounted
 onMounted(() => {
   Aos.init();
   filterProductsAndCategory();

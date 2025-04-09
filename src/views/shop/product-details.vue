@@ -12,7 +12,7 @@
           <li><router-link to="">Shop</router-link></li>
           <li>/</li>
           <li class="text-primary">
-            {{ data && data.name ? data.name : "Classic Relaxable Chair" }}
+            {{ currentProduct && currentProduct.name ? currentProduct.name : "" }}
           </li>
         </ul>
       </div>
@@ -31,53 +31,30 @@
                 -10%
               </button>
               <div class="product-dtls-slider">
-                <div>
+                <div v-for="(product, index) in relatedProducts" :key="product.id">
                   <img
-                    :src="data && data.image ? data.image : product1"
-                    alt=""
+                    :src="product.image"
+                    :alt="product.name"
                     class="w-full"
-                    :class="activeImage === 1 ? '' : 'hidden'"
-                  />
-                </div>
-                <div>
-                  <img
-                    :src="product2"
-                    alt=""
-                    :class="activeImage === 2 ? '' : 'hidden'"
-                  />
-                </div>
-                <div>
-                  <img
-                    :src="product3"
-                    alt=""
-                    :class="activeImage === 3 ? '' : 'hidden'"
-                  />
-                </div>
-                <div>
-                  <img
-                    :src="product4"
-                    alt=""
-                    :class="activeImage === 4 ? '' : 'hidden'"
+                    :class="{ hidden: selectedIndex !== index }"
                   />
                 </div>
               </div>
               <div class="product-dtls-nav">
-                <div>
-                  <img
-                    :src="data && data.image ? data.image : product1"
-                    @click="activeImage = 1"
-                    alt=""
-                    class="mb-2"
-                  />
-                </div>
-                <div>
-                  <img :src="product2" @click="activeImage = 2" alt="" class="mb-2" />
-                </div>
-                <div>
-                  <img :src="product3" @click="activeImage = 3" alt="" class="mb-2" />
-                </div>
-                <div>
-                  <img :src="product4" @click="activeImage = 4" alt="" class="mb-2" />
+                <div class="product-dtls-nav">
+                  <div
+                    v-for="(product, index) in relatedProducts"
+                    :key="product.id"
+                    class="cursor-pointer"
+                    @click="selectedIndex = index"
+                  >
+                    <img
+                      :src="product.image"
+                      :alt="product.name"
+                      class="mb-2 w-20 h-20 object-cover"
+                      :class="{ 'border-2 border-primary': selectedIndex === index }"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -85,7 +62,7 @@
           <div class="lg:max-w-[635px] w-full">
             <div class="pb-4 sm:pb-6 border-b border-bdr-clr dark:border-bdr-clr-drk">
               <h2 class="font-semibold leading-none">
-                {{ data && data.name ? data.name : "Classic Relaxable Chair" }}
+                {{ currentProduct && currentProduct.name ? currentProduct.name : "" }}
               </h2>
               <div class="flex gap-4 items-center mt-[15px]">
                 <span
@@ -197,7 +174,7 @@
                 <h6 class="leading-none font-medium">Category : Chair</h6>
               </div>
               <div class="flex gap-x-12 lg:gap-x-24 gap-y-3 flex-wrap mt-5 sm:mt-10">
-                <div class="flex gap-[10px] items-center">
+                <!-- <div class="flex gap-[10px] items-center">
                   <h6 class="leading-none font-medium">Size :</h6>
                   <div class="flex gap-[10px]">
                     <label class="product-size">
@@ -234,7 +211,7 @@
                       >
                     </label>
                   </div>
-                </div>
+                </div> -->
                 <div class="flex gap-[10px] items-center">
                   <h6 class="leading-none font-medium">Color :</h6>
                   <div class="flex gap-[10px] items-center">
@@ -376,11 +353,6 @@ import LayoutOne from "@/components/product/layout-one.vue";
 import FooterOne from "@/components/footer/footer-six.vue";
 import ScrollToTop from "@/components/scroll-to-top.vue";
 
-// import product1 from "@/assets/img/gallery/product-detls/product-01.jpg";
-// import product2 from "@/assets/img/gallery/product-detls/product-02.jpg";
-// import product3 from "@/assets/img/gallery/product-detls/product-03.jpg";
-// import product4 from "@/assets/img/gallery/product-detls/product-04.jpg";
-
 import Aos from "aos";
 import { productList } from "@/data/data";
 
@@ -388,7 +360,8 @@ onMounted(() => {
   Aos.init();
 });
 
-const activeImage = ref(1);
+// const activeImage = ref(1);
+const selectedIndex = ref(0);
 
 const now = ref(new Date().getTime());
 
@@ -414,5 +387,23 @@ setInterval(updateNow, 1000);
 
 const route = useRoute();
 
-const data = productList.find((item) => item.id === parseInt(route.params.id));
+// const data = productList.find((item) => item.id === parseInt(route.params.id));
+
+const currentProduct = computed(() =>
+  productList.find((item) => item.id === parseInt(route.params.id))
+);
+
+const relatedProducts = computed(() => {
+  if (!currentProduct.value) return [];
+
+  // Filter produk yang memiliki nama yang sama, termasuk produk saat ini
+  const variants = productList.filter(
+    (product) => product.name === currentProduct.value.name
+  );
+
+  // Urutkan array berdasarkan ID agar konsisten
+  return variants.sort((a, b) => a.id - b.id);
+});
+
+// Tambahkan untuk debugging
 </script>
