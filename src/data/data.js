@@ -20,6 +20,23 @@ import shop7 from '@/assets/img/table/COFFEE_TABLE_INDUSTRIA.webp'
 import shop8 from '@/assets/img/table/GLEN_DINING_TABLE.webp'
 import shop9 from '@/assets/img/table/LYON_NESTED_TABLE_SMALL.webp'
 import shop10 from '@/assets/img/table/PEACOCK_SIDE_TABLE.webp'
+import shop11 from '@/assets/img/chair/ALESSA_BISTRO_ARMCHAIR/SLV-2_1.webp'
+import shop12 from '@/assets/img/chair/ALESSA_BISTRO_ARMCHAIR/SLV-2_2.webp'
+import shop13 from '@/assets/img/chair/ALESSA_BISTRO_ARMCHAIR/SLV-2.webp'
+
+import shop14 from '@/assets/img/chair/ALESSA-BISTRO-ARMCHAIR-BLACK/SLV-1.webp'
+import shop15 from '@/assets/img/chair/ALESSA-BISTRO-CHAIR/s1m07okk.png'
+import shop16 from '@/assets/img/chair/ALOEVERA-CHAIR-BROWN-WASH/SLV-27.webp'
+import shop17 from '@/assets/img/chair/ALOEVERA-CHAIR-KUBU-GREY/SLV-26_1.webp'
+import shop18 from '@/assets/img/chair/ALOEVERA-CHAIR-KUBU-GREY/SLV-26.webp'
+
+import shop19 from '@/assets/img/chair/ANTONIO-ARMCHAIR/9swfjf6p.png'
+import shop20 from '@/assets/img/chair/ANTONIO-ARMCHAIR/caki8ufo.png'
+import shop21 from '@/assets/img/chair/ANTONIO-ARMCHAIR/wraml4m8.png'
+
+
+
+
 
 import fea1 from '@/assets/img/svg/fea-1.svg'
 import fea2 from '@/assets/img/svg/fea-2.svg'
@@ -244,7 +261,96 @@ export const productList = [
         name:'Ben Chair',
         categorySlug : "chair"
     },
+    {
+        id:14,
+        image:shop11,
+        tag:'',
+        price:'',
+        name:'Alessa Bistro ArmChair',
+        categorySlug : "chair"
+    },
+    {
+        id:15,
+        image:shop12,
+        tag:'',
+        price:'',
+        name:'Alessa Bistro ArmChair',
+        categorySlug : "chair"
+    },
+    {
+        id:16,
+        image:shop13,
+        tag:'',
+        price:'',
+        name:'Alessa Bistro ArmChair',
+        categorySlug : "chair"
+    },
+    {
+        id:17,
+        image:shop14,
+        tag:'',
+        price:'',
+        name:'Alessa Bistro ArmChair Black',
+        categorySlug : "chair"
+    },
+    {
+        id:18,
+        image:shop15,
+        tag:'',
+        price:'',
+        name:'Alessa Bistro Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:19,
+        image:shop16,
+        tag:'',
+        price:'',
+        name:'Aloevera Chair Brown Wash',
+        categorySlug : "chair"
+    },
+    {
+        id:20,
+        image:shop17,
+        tag:'',
+        price:'',
+        name:'Aloevera Chair Kubu Grey',
+        categorySlug : "chair"
+    },
+    {
+        id:21,
+        image:shop18,
+        tag:'',
+        price:'',
+        name:'Aloevera Chair Kubu Grey',
+        categorySlug : "chair"
+    },
+    {
+        id:22,
+        image:shop19,
+        tag:'',
+        price:'',
+        name:'Antonio ArmChair',
+        categorySlug : "chair"
+    },
+    {
+        id:23,
+        image:shop20,
+        tag:'',
+        price:'',
+        name:'Antonio ArmChair',
+        categorySlug : "chair"
+    },
+    {
+        id:24,
+        image:shop21,
+        tag:'',
+        price:'',
+        name:'Antonio ArmChair',
+        categorySlug : "chair"
+    },
 ]
+
 
 export const featureOne = [
     {
