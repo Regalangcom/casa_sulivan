@@ -9,6 +9,47 @@ import pp4 from '@/assets/img/neonPigeon/NEON2.png'
 import pp5 from '@/assets/img/acta/acta5.png'
 import pp6 from '@/assets/img/black-pond/black-pond(1).png'
 
+import pp7 from '@/assets/img/Ambrosia-Private-Club/Screenshot(152).png'
+import pp7_1 from '@/assets/img/Ambrosia-Private-Club/Screenshot(141).png'
+import pp7_2 from '@/assets/img/Ambrosia-Private-Club/Screenshot(142).png'
+import pp7_3 from '@/assets/img/Ambrosia-Private-Club/Screenshot(143).png'
+import pp7_4 from '@/assets/img/Ambrosia-Private-Club/Screenshot(144).png'
+import pp7_5 from '@/assets/img/Ambrosia-Private-Club/Screenshot(153).png'
+import pp7_6 from '@/assets/img/Ambrosia-Private-Club/Screenshot(203).png'
+import pp7_7 from '@/assets/img/Ambrosia-Private-Club/Screenshot(204).png'
+
+
+
+
+
+
+import pp8 from '@/assets/img/Brew&Co/Screenshot(212).png'
+import pp8_1 from '@/assets/img/Brew&Co/Screenshot(213).png'
+import pp8_2 from '@/assets/img/Brew&Co/Screenshot(214).png'
+import pp8_3 from '@/assets/img/Brew&Co/Screenshot(215).png'
+import pp8_4 from '@/assets/img/Brew&Co/Screenshot(216).png'
+import pp8_5 from '@/assets/img/Brew&Co/Screenshot(217).png'
+import pp8_6 from '@/assets/img/Brew&Co/Screenshot(218).png'
+import pp8_7 from '@/assets/img/Brew&Co/Screenshot(219).png'
+import pp8_8 from '@/assets/img/Brew&Co/Screenshot(220).png'
+
+
+
+
+
+import pp9 from '@/assets/img/LOLA-Espiritu-Bar/Screenshot(208).png'
+import pp9_1 from '@/assets/img/LOLA-Espiritu-Bar/Screenshot(207).png'
+import pp9_2 from '@/assets/img/LOLA-Espiritu-Bar/Screenshot(209).png'
+
+
+
+
+import pp10 from '@/assets/img/Maison-De-Wisteria/Screenshot(38).png'
+import pp10_1 from '@/assets/img/Maison-De-Wisteria/Screenshot(37).png'
+
+
+import pp11 from '@/assets/img/Paris-Baguette/Screenshot(36).png'
+
 
 import tpp1 from '@/assets/img/pulman/pulman2.png'
 import tpp2 from '@/assets/img/zodiac/Zodiac1.png'
@@ -101,6 +142,41 @@ export const portfolioTwo = [
         tag:'Custom all furniture',
         name:'Black Pond Tavern The MAJ  Senayan'
     },
+    {
+        id:7,
+        image:pp7,
+        category:["Interior", "Vase"],
+        tag:'Custom all furniture',
+        name:'Ambrosia Private Club'
+    },
+    {
+        id:8,
+        image:pp8,
+        category:["Interior", "Vase"],
+        tag:'Custom all furniture',
+        name:'Brew&Co'
+    },
+    {
+        id:9,
+        image:pp9,
+        category:["Interior", "Vase"],
+        tag:'Custom all furniture',
+        name:'Lola Espiritu Bar'
+    },
+    {
+        id:10,
+        image:pp10,
+        category:["Interior", "Vase"],
+        tag:'Custom all furniture',
+        name:'Maison De Wisteria'
+    },
+    {
+        id:11,
+        image:pp11,
+        category:["Interior", "Vase"],
+        tag:'Custom all furniture',
+        name:'Paris Baguette'
+    },
 ]
 
 
@@ -134,5 +210,21 @@ export const testimonialTwo = [
     {
         id:6,
         image:[tpp6_1],
+    },
+    {
+        id: 7,
+        image:[pp7_1, pp7_2, pp7_3, pp7_4, pp7_5, pp7_6, pp7_7],
+    },
+    {
+        id: 8,
+        image:[pp8_1, pp8_2, pp8_3, pp8_4, pp8_5, pp8_6, pp8_7, pp8_8],
+    },
+    {
+        id: 9,
+        image:[pp9_1, pp9_2],
+    },
+    {
+        id: 10,
+        image:[pp10_1],
     },
 ]

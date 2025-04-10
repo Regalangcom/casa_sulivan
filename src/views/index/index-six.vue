@@ -492,6 +492,16 @@
           </div>
         </div>
       </div>
+      <div class="text-center mt-7 md:mt-32">
+        <!-- <router-link to="" class="btn btn-outline" data-text="see our project"> -->
+        <router-link
+          to="/our-projects"
+          class="btn btn-outline"
+          data-text="see our project"
+        >
+          <span>All Our Project</span>
+        </router-link>
+      </div>
     </div>
 
     <div class="s-py-50-100 mt-20">

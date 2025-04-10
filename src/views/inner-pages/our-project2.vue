@@ -120,7 +120,7 @@
 
                 <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-7">
                   <router-link
-                    v-for="(item, index) in portfolioTwo.slice(3, 6)"
+                    v-for="(item, index) in portfolioTwo.slice(3, 11)"
                     :key="index"
                     :to="`/portfolio-details-v1/${item.id}`"
                     class=""
@@ -128,11 +128,13 @@
                     <div
                       class="portfolio-card mt-5 relative before:absolute before:top-0 before:left-0 before:w-full before:h-full before:opacity-0 before:duration-300 hover:before:opacity-100 group overflow-hidden"
                     >
-                      <img
-                        class="w-full object-cover"
-                        :src="item.image"
-                        alt="Portfolio"
-                      />
+                      <div class="aspect-ratio-box relative w-full pb-[75%]">
+                        <img
+                          class="absolute top-0 left-0 w-full h-full object-cover"
+                          :src="item.image"
+                          alt="Portfolio"
+                        />
+                      </div>
                       <div
                         class="absolute left-7 bottom-7 z-10 transform translate-y-8 duration-300 opacity-0 group-hover:translate-y-0 group-hover:opacity-100"
                       >
@@ -166,11 +168,6 @@
                     <div
                       class="portfolio-card relative h-full before:absolute before:top-0 before:left-0 before:w-full before:h-full before:opacity-0 before:duration-300 hover:before:opacity-100 group overflow-hidden"
                     >
-                      <!-- <img
-                      class="w-full h-full object-cover"
-                      :src="image1"
-                      alt="Portfolio"
-                    /> -->
                       <img class="w-full h-full object-cover" alt="Portfolio" />
                       <div
                         class="absolute left-7 bottom-7 z-10 transform translate-y-8 duration-300 opacity-0 group-hover:translate-y-0 group-hover:opacity-100"
