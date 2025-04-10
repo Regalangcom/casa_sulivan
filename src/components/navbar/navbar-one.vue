@@ -90,11 +90,11 @@
             <li :class="['/about'].includes(current) ? 'active' : ''">
               <router-link to="/about">About Us</router-link>
             </li>
-            <li class="relative">
+            <li :class="['/our-projects'].includes(current) ? 'active' : ''">
               <router-link to="/our-projects">Our Project</router-link>
             </li>
 
-            <li class="relative">
+            <li :class="['/contact'].includes(current) ? 'active' : ''">
               <router-link to="/contact">Contact Us</router-link>
             </li>
             <li :class="current === '/contact' ? 'active' : ''">
