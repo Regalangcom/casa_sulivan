@@ -212,7 +212,7 @@
                     </label>
                   </div>
                 </div> -->
-                <div class="flex gap-[10px] items-center">
+                <!-- <div class="flex gap-[10px] items-center">
                   <h6 class="leading-none font-medium">Color :</h6>
                   <div class="flex gap-[10px] items-center">
                     <label class="product-color">
@@ -253,7 +253,7 @@
                       </span>
                     </label>
                   </div>
-                </div>
+                </div> -->
               </div>
             </div>
             <div
