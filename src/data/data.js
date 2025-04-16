@@ -33,6 +33,36 @@ import shop18 from '@/assets/img/chair/ALOEVERA-CHAIR-KUBU-GREY/SLV-26.webp'
 import shop19 from '@/assets/img/chair/ANTONIO-ARMCHAIR/9swfjf6p.png'
 import shop20 from '@/assets/img/chair/ANTONIO-ARMCHAIR/caki8ufo.png'
 import shop21 from '@/assets/img/chair/ANTONIO-ARMCHAIR/wraml4m8.png'
+import shop22 from "@/assets/img/chair/BORNEO-CHAIR/BORNEO_CHAIR/SLV-28_1.webp"
+import shop23 from "@/assets/img/chair/BORNEO-CHAIR/BORNEO_CHAIR/SLV-28.webp"
+import shop24 from "@/assets/img/chair/BORNEO-HANGING-CHAIR/BORNEO-HANGING-CHAIR/Screenshot(199).png"
+import shop25 from "@/assets/img/chair/BORNEO-HANGING-CHAIR/BORNEO-HANGING-CHAIR/Screenshot(200).png"
+import shop26 from "@/assets/img/chair/BORNEO-HANGING-CHAIR/BORNEO-HANGING-CHAIR/Screenshot(201).png"
+import shop27 from "@/assets/img/chair/BORNEO-HANGING-CHAIR/BORNEO-HANGING-CHAIR/Screenshot(202).png"
+import shop28 from "@/assets/img/chair/BORNEO-HANGING-CHAIR/BORNEO-HANGING-CHAIR/Screenshot(203).png"
+import shop29 from "@/assets/img/chair/BORNEO-HANGING-CHAIR/BORNEO-HANGING-CHAIR/Screenshot(204).png"
+// shop30 ini chair
+import shop30 from "@/assets/img/chair/BRYENKA-BENCH/3amy0pwe.png"
+import shop31 from "@/assets/img/chair/BRYENKA-BENCH/0y1ntyjo.png"
+import shop32 from "@/assets/img/chair/BRYENKA-BENCH/6tbzz3lt.png"
+import shop33 from "@/assets/img/chair/BRYENKA-BENCH/390v472j.png"
+import shop34 from "@/assets/img/chair/BRYENKA-BENCH/a6vujuhb.png"
+import shop35 from "@/assets/img/chair/BRYENKA-BENCH/m8e0s0e6.png"
+import shop36 from "@/assets/img/chair/BRYENKA-BENCH/sqojjgjm.png"
+
+
+
+import shop37 from "@/assets/img/chair/CHIPPENDALE-ARMCHAIR/2.png"
+import shop38 from "@/assets/img/chair/CHIPPENDALE-ARMCHAIR/1.png"
+import shop39 from "@/assets/img/chair/CHIPPENDALE-ARMCHAIR/3.png"
+import shop40 from "@/assets/img/chair/CHIPPENDALE-ARMCHAIR/4.png"
+import shop41 from "@/assets/img/chair/CHIPPENDALE-ARMCHAIR/5.png"
+import shop42 from "@/assets/img/chair/CHIPPENDALE-ARMCHAIR/6.png"
+import shop43 from "@/assets/img/chair/CHIPPENDALE-ARMCHAIR/7.png"
+import shop44 from "@/assets/img/chair/CHIPPENDALE-ARMCHAIR/8.png"
+import shop45 from "@/assets/img/chair/CHIPPENDALE-ARMCHAIR/9.png"
+
+
 
 
 
@@ -349,8 +379,201 @@ export const productList = [
         name:'Antonio ArmChair',
         categorySlug : "chair"
     },
+    {
+        id:25,
+        image:shop22,
+        tag:'',
+        price:'',
+        name:'Borneo Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:26,
+        image:shop23,
+        tag:'',
+        price:'',
+        name:'Borneo Hanging Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:27,
+        image:shop24,
+        tag:'',
+        price:'',
+        name:'Borneo Hanging Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:28,
+        image:shop25,
+        tag:'',
+        price:'',
+        name:'Borneo Hanging Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:29,
+        image:shop26,
+        tag:'',
+        price:'',
+        name:'Borneo Hanging Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:30,
+        image:shop27,
+        tag:'',
+        price:'',
+        name:'Borneo Hanging Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:31,
+        image:shop28,
+        tag:'',
+        price:'',
+        name:'Borneo Hanging Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:32,
+        image:shop29,
+        tag:'',
+        price:'',
+        name:'Borneo Hanging Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:33,
+        image:shop30,
+        tag:'',
+        price:'',
+        name:'Bryenka Bench',
+        categorySlug : "chair"
+    },
+    {
+        id:34,
+        image:shop31,
+        tag:'',
+        price:'',
+        name:'Bryenka Bench',
+        categorySlug : "chair"
+    },
+    {
+        id:35,
+        image:shop32,
+        tag:'',
+        price:'',
+        name:'Bryenka Bench',
+        categorySlug : "chair"
+    },
+    {
+        id:36,
+        image:shop33,
+        tag:'',
+        price:'',
+        name:'Bryenka Bench',
+        categorySlug : "chair"
+    },
+    {
+        id:37,
+        image:shop34,
+        tag:'',
+        price:'',
+        name:'Bryenka Bench',
+        categorySlug : "chair"
+    },
+    {
+        id:38,
+        image:shop35,
+        tag:'',
+        price:'',
+        name:'Bryenka Bench',
+        categorySlug : "chair"
+    },
+    {
+        id:39,
+        image:shop36,
+        tag:'',
+        price:'',
+        name:'Bryenka Bench',
+        categorySlug : "chair"
+    },
+    {
+        id:40,
+        image:shop37,
+        tag:'',
+        price:'',
+        name:'Chippendale Armchair',
+        categorySlug : "chair"
+    },
+    {
+        id:41,
+        image:shop38,
+        tag:'',
+        price:'',
+        name:'Chippendale Armchair',
+        categorySlug : "chair"
+    },
+    {
+        id:42,
+        image:shop39,
+        tag:'',
+        price:'',
+        name:'Chippendale Armchair',
+        categorySlug : "chair"
+    },
+    {
+        id:43,
+        image:shop40,
+        tag:'',
+        price:'',
+        name:'Chippendale Armchair',
+        categorySlug : "chair"
+    },
+    {
+        id:44,
+        image:shop41,
+        tag:'',
+        price:'',
+        name:'Chippendale Armchair',
+        categorySlug : "chair"
+    },
+    {
+        id:45,
+        image:shop42,
+        tag:'',
+        price:'',
+        name:'Chippendale Armchair',
+        categorySlug : "chair"
+    },
+    {
+        id:46,
+        image:shop43,
+        tag:'',
+        price:'',
+        name:'Chippendale Armchair',
+        categorySlug : "chair"
+    },
+    {
+        id:47,
+        image:shop44,
+        tag:'',
+        price:'',
+        name:'Chippendale Armchair',
+        categorySlug : "chair"
+    },
+    {
+        id:49,
+        image:shop45,
+        tag:'',
+        price:'',
+        name:'Chippendale Armchair',
+        categorySlug : "chair"
+    },
 ]
 
+// Borneo Hanging Chair
 
 export const featureOne = [
     {
