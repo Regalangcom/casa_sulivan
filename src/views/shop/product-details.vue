@@ -153,15 +153,9 @@
               <IncDec />
 
               <div class="flex gap-4 mt-4 sm:mt-6">
-                <router-link to="/cart" class="btn btn-solid" data-text="Add to Cart">
-                  <span>Buy Product</span>
-                </router-link>
-                <!-- <router-link to="#" class="btn btn-outline" data-text="Add to Wishlist">
-                  <span>Add to Wishlist</span>
-                </router-link>
-                <router-link to="#" class="btn btn-outline" data-text="Add to Wishlist">
-                  <span>Add to Wishlist</span>
-                </router-link> -->
+                <button to="" class="btn btn-solid" data-text="Buy Product">
+                  <span><a href="https://wa.link/afdqcm">Buy Product</a></span>
+                </button>
               </div>
             </div>
             <div
@@ -170,90 +164,20 @@
               data-aos-delay="300"
             >
               <div class="flex gap-x-12 gap-y-3 flex-wrap">
-                <h6 class="leading-none font-medium">SKU : CH_0015</h6>
-                <h6 class="leading-none font-medium">Category : Chair</h6>
+                <!-- <h6 class="leading-none font-medium">SKU : CH_0015</h6> -->
+                <h6 class="leading-none font-bold text-2xl">
+                  Category :
+                  <span class="text-2xl text-red-600">
+                    {{
+                      currentProduct && currentProduct.categorySlug
+                        ? currentProduct.categorySlug
+                        : ""
+                    }}
+                  </span>
+                </h6>
               </div>
               <div class="flex gap-x-12 lg:gap-x-24 gap-y-3 flex-wrap mt-5 sm:mt-10">
-                <!-- <div class="flex gap-[10px] items-center">
-                  <h6 class="leading-none font-medium">Size :</h6>
-                  <div class="flex gap-[10px]">
-                    <label class="product-size">
-                      <input
-                        class="appearance-none hidden"
-                        type="radio"
-                        name="size"
-                        checked
-                      />
-                      <span
-                        class="w-6 h-6 flex items-center justify-center pt-[2px] text-sm leading-none bg-[#E8E9EA] dark:bg-dark-secondary text-title dark:text-white duration-300"
-                        >S</span
-                      >
-                    </label>
-                    <label class="product-size">
-                      <input class="appearance-none hidden" type="radio" name="size" />
-                      <span
-                        class="w-6 h-6 flex items-center justify-center pt-[2px] text-sm leading-none bg-[#E8E9EA] dark:bg-dark-secondary text-title dark:text-white duration-300"
-                        >M</span
-                      >
-                    </label>
-                    <label class="product-size">
-                      <input class="appearance-none hidden" type="radio" name="size" />
-                      <span
-                        class="w-6 h-6 flex items-center justify-center pt-[2px] text-sm leading-none bg-[#E8E9EA] dark:bg-dark-secondary text-title dark:text-white duration-300"
-                        >L</span
-                      >
-                    </label>
-                    <label class="product-size">
-                      <input class="appearance-none hidden" type="radio" name="size" />
-                      <span
-                        class="w-6 h-6 flex items-center justify-center pt-[2px] text-sm leading-none bg-[#E8E9EA] dark:bg-dark-secondary text-title dark:text-white duration-300"
-                        >XL</span
-                      >
-                    </label>
-                  </div>
-                </div> -->
-                <!-- <div class="flex gap-[10px] items-center">
-                  <h6 class="leading-none font-medium">Color :</h6>
-                  <div class="flex gap-[10px] items-center">
-                    <label class="product-color">
-                      <input class="appearance-none hidden" type="radio" name="color" />
-                      <span
-                        class="border border-[#D68553] flex rounded-full border-opacity-0 duration-300 p-1"
-                      >
-                        <span class="w-4 h-4 rounded-full bg-[#D68553] flex"></span>
-                      </span>
-                    </label>
-                    <label class="product-color">
-                      <input
-                        class="appearance-none hidden"
-                        type="radio"
-                        name="color"
-                        checked
-                      />
-                      <span
-                        class="border border-[#61646E] flex rounded-full border-opacity-0 duration-300 p-1"
-                      >
-                        <span class="w-4 h-4 rounded-full bg-[#61646E] flex"></span>
-                      </span>
-                    </label>
-                    <label class="product-color">
-                      <input class="appearance-none hidden" type="radio" name="color" />
-                      <span
-                        class="border border-[#E9E3DC] flex rounded-full border-opacity-0 duration-300 p-1"
-                      >
-                        <span class="w-4 h-4 rounded-full bg-[#E9E3DC] flex"></span>
-                      </span>
-                    </label>
-                    <label class="product-color">
-                      <input class="appearance-none hidden" type="radio" name="color" />
-                      <span
-                        class="border border-[#9A9088] flex rounded-full border-opacity-0 duration-300 p-1"
-                      >
-                        <span class="w-4 h-4 rounded-full bg-[#9A9088] flex"></span>
-                      </span>
-                    </label>
-                  </div>
-                </div> -->
+                <!--  -->
               </div>
             </div>
             <div

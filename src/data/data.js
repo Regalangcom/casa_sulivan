@@ -63,6 +63,263 @@ import shop44 from "@/assets/img/chair/CHIPPENDALE-ARMCHAIR/8.png"
 import shop45 from "@/assets/img/chair/CHIPPENDALE-ARMCHAIR/9.png"
 
 
+import shop46 from "@/assets/img/chair/CREA-CHAIR/1.png"
+import shop47 from "@/assets/img/chair/CREA-CHAIR/2.png"
+import shop48 from "@/assets/img/chair/CREA-CHAIR/3.png"
+import shop49 from "@/assets/img/chair/CREA-CHAIR/4.png"
+import shop50 from "@/assets/img/chair/CREA-CHAIR/5.png"
+import shop51 from "@/assets/img/chair/CREA-CHAIR/6.png"
+import shop52 from "@/assets/img/chair/CREA-CHAIR/7.png"
+import shop53 from "@/assets/img/chair/CREA-CHAIR/8.png"
+import shop54 from "@/assets/img/chair/CREA-CHAIR/9.png"
+
+
+import shop55 from "@/assets/img/chair/FLOWER-CHAIR/1.png"
+import shop56 from "@/assets/img/chair/FLOWER-CHAIR/2.png"
+
+
+
+import shop57 from "@/assets/img/chair/HERRING-STOOL/1.png"
+import shop58 from "@/assets/img/chair/HERRING-STOOL/2.png"
+import shop59 from "@/assets/img/chair/HERRING-STOOL/3.png"
+import shop60 from "@/assets/img/chair/HERRING-STOOL/4.png"
+import shop61 from "@/assets/img/chair/HERRING-STOOL/5.png"
+import shop62 from "@/assets/img/chair/HERRING-STOOL/6.png"
+
+
+import shop63 from "@/assets/img/chair/JUMA-CHAIR/1.webp"
+import shop64 from "@/assets/img/chair/JUMA-CHAIR/2.webp"
+import shop65 from "@/assets/img/chair/JUMA-CHAIR/3.webp"
+import shop66 from "@/assets/img/chair/JUMA-CHAIR/4.webp"
+import shop67 from "@/assets/img/chair/JUMA-CHAIR/5.webp"
+import shop68 from "@/assets/img/chair/JUMA-CHAIR/6.webp"
+
+
+
+import shop69 from "@/assets/img/chair/KELEK-KIDS-CHAIR-NATURAL/1.png"
+import shop70 from "@/assets/img/chair/KELEK-KIDS-CHAIR-NATURAL/2.png"
+import shop71 from "@/assets/img/chair/KELEK-KIDS-CHAIR-NATURAL/3.png"
+
+
+import shop72 from "@/assets/img/chair/KELEK-KIDS-CHAIR-WHITE/1.png"
+import shop73 from "@/assets/img/chair/KELEK-KIDS-CHAIR-WHITE/2.png"
+
+import shop74 from "@/assets/img/chair/MAX-DINING-CHAIR/1.png"
+import shop75 from "@/assets/img/chair/MAX-DINING-CHAIR/2.png"
+import shop76 from "@/assets/img/chair/MAX-DINING-CHAIR/3.png"
+import shop77 from "@/assets/img/chair/MAX-DINING-CHAIR/4.png"
+import shop78 from "@/assets/img/chair/MAX-DINING-CHAIR/5.png"
+import shop79 from "@/assets/img/chair/MAX-DINING-CHAIR/6.png"
+import shop80 from "@/assets/img/chair/MAX-DINING-CHAIR/7.png"
+
+// MODIFIED PAPASAN CHAIR SKIP DAHULU
+
+import shopPapasan1 from "@/assets/img/chair/MODIFIED-PAPASAN-CHAIR/1.png"
+import shopPapasan2 from "@/assets/img/chair/MODIFIED-PAPASAN-CHAIR/2.png"
+import shopPapasan3 from "@/assets/img/chair/MODIFIED-PAPASAN-CHAIR/3.png"
+import shopPapasan4 from "@/assets/img/chair/MODIFIED-PAPASAN-CHAIR/4.png"
+import shopPapasan5 from "@/assets/img/chair/MODIFIED-PAPASAN-CHAIR/5.png"
+import shopPapasan6 from "@/assets/img/chair/MODIFIED-PAPASAN-CHAIR/6.png"
+import shopPapasan7 from "@/assets/img/chair/MODIFIED-PAPASAN-CHAIR/7.png"
+import shopPapasan8 from "@/assets/img/chair/MODIFIED-PAPASAN-CHAIR/8.png"
+
+
+import shop81 from "@/assets/img/chair/MORY-CHAIR-LIGHT-GREY/Screenshot(174).png"
+import shop82 from "@/assets/img/chair/MORY-CHAIR-LIGHT-GREY/Screenshot(175).png"
+import shop83 from "@/assets/img/chair/MORY-CHAIR-LIGHT-GREY/Screenshot(176).png"
+import shop84 from "@/assets/img/chair/MORY-CHAIR-LIGHT-GREY/Screenshot(177).png"
+import shop85 from "@/assets/img/chair/MORY-CHAIR-LIGHT-GREY/Screenshot(178).png"
+import shop86 from "@/assets/img/chair/MORY-CHAIR-LIGHT-GREY/Screenshot(179).png"
+
+
+import shop87 from "@/assets/img/chair/ORLON-ARMCHAIR/1.webp"
+
+
+import shop88 from "@/assets/img/chair/PAUL-BARSTOOL/1.webp"
+import shop89 from "@/assets/img/chair/PAUL-BARSTOOL/2.webp"
+
+
+import shop90 from "@/assets/img/chair/PAUL-DINING-CHAIR/1.png"
+import shop91 from "@/assets/img/chair/PAUL-DINING-CHAIR/2.png"
+import shop92 from "@/assets/img/chair/PAUL-DINING-CHAIR/3.png"
+
+
+import shop93 from "@/assets/img/chair/PEACOCK-ARMCHAIR-BLUE/1.png"
+
+
+import shop94 from "@/assets/img/chair/PEACOCK-ARMCHAIR-RED/1.png"
+
+import shop95 from "@/assets/img/chair/PEACOCK-ARMCHAIR-YELLOW/1.png"
+
+import shop96 from "@/assets/img/chair/PEACOCK-DINING-CHAIR/1.png"
+import shop97 from "@/assets/img/chair/PEACOCK-DINING-CHAIR/2.png"
+import shop98 from "@/assets/img/chair/PEACOCK-DINING-CHAIR/3.png"
+import shop99 from "@/assets/img/chair/PEACOCK-DINING-CHAIR/4.png"
+import shop100 from "@/assets/img/chair/PEACOCK-DINING-CHAIR/5.png"
+import shop101 from "@/assets/img/chair/PEACOCK-DINING-CHAIR/6.png"
+import shop102 from "@/assets/img/chair/PEACOCK-DINING-CHAIR/7.png"
+import shop103 from "@/assets/img/chair/PEACOCK-DINING-CHAIR/8.png"
+
+
+
+import shop104 from "@/assets/img/chair/PROVENCE-WALL-SHELVES/1.png"
+import shop105 from "@/assets/img/chair/PROVENCE-WALL-SHELVES/2.png"
+import shop106 from "@/assets/img/chair/PROVENCE-WALL-SHELVES/3.png"
+import shop107 from "@/assets/img/chair/PROVENCE-WALL-SHELVES/4.png"
+import shop108 from "@/assets/img/chair/PROVENCE-WALL-SHELVES/5.png"
+
+
+import shop109 from "@/assets/img/chair/SLOUCH-CHAIR/1.png"
+import shop110 from "@/assets/img/chair/SLOUCH-CHAIR/2.png"
+import shop111 from "@/assets/img/chair/SLOUCH-CHAIR/3.png"
+import shop112 from "@/assets/img/chair/SLOUCH-CHAIR/4.png"
+import shop113 from "@/assets/img/chair/SLOUCH-CHAIR/5.png"
+import shop114 from "@/assets/img/chair/SLOUCH-CHAIR/6.png"
+
+
+// import shop114 from "@/assets/img/chair/SLOUCH-STOOL/1.png"
+import shop115 from "@/assets/img/chair/SLOUCH-STOOL/2.png"
+import shop116 from "@/assets/img/chair/SLOUCH-STOOL/3.png"
+import shop117 from "@/assets/img/chair/SLOUCH-STOOL/4.png"
+import shop118 from "@/assets/img/chair/SLOUCH-STOOL/5.png"
+import shop119 from "@/assets/img/chair/SLOUCH-STOOL/6.png"
+
+
+import shop120 from "@/assets/img/chair/SQUARE-BISTRO-ARMCHAIR/1.webp"
+import shop121 from "@/assets/img/chair/SQUARE-BISTRO-ARMCHAIR/2.webp"
+
+import shop122 from "@/assets/img/chair/STELLA-HANGING-CHAIR/1.png"
+import shop123 from "@/assets/img/chair/STELLA-HANGING-CHAIR/2.png"
+
+
+import shop124 from "@/assets/img/chair/TAKESHI-CHAIR/1.webp"
+import shop125 from "@/assets/img/chair/TAKESHI-CHAIR/2.webp"
+import shop126 from "@/assets/img/chair/TAKESHI-CHAIR/3.webp"
+import shop127 from "@/assets/img/chair/TAKESHI-CHAIR/4.webp"
+import shop128 from "@/assets/img/chair/TAKESHI-CHAIR/5.webp"
+import shop129 from "@/assets/img/chair/TAKESHI-CHAIR/6.webp"
+import shop130 from "@/assets/img/chair/TAKESHI-CHAIR/7.webp"
+import shop131 from "@/assets/img/chair/TAKESHI-CHAIR/8.webp"
+
+
+import shop132 from "@/assets/img/chair/TIFFANY-DINING-CHAIR/1.png"
+import shop133 from "@/assets/img/chair/TIFFANY-DINING-CHAIR/2.png"
+import shop134 from "@/assets/img/chair/TIFFANY-DINING-CHAIR/3.png"
+
+
+import shop135 from "@/assets/img/chair/TUB-BISTRO-ARMCHAIR/1.png"
+
+import shop136 from "@/assets/img/chair/WEBBING-DINING-CHAIR/1.png"
+import shop137 from "@/assets/img/chair/WEBBING-DINING-CHAIR/2.png"
+import shop138 from "@/assets/img/chair/WEBBING-DINING-CHAIR/3.png"
+import shop139 from "@/assets/img/chair/WEBBING-DINING-CHAIR/4.png"
+import shop140 from "@/assets/img/chair/WEBBING-DINING-CHAIR/5.png"
+import shop141 from "@/assets/img/chair/WEBBING-DINING-CHAIR/6.png"
+import shop142 from "@/assets/img/chair/WEBBING-DINING-CHAIR/7.png"
+
+
+import shop143 from "@/assets/img/chair/YOSEPH-PEEL-DINING-CHAIR/1.png"
+
+import shop145 from "@/assets/img/chair/ZB-RATTAN-CHAIR/1.webp"
+import shop146 from "@/assets/img/chair/ZB-RATTAN-CHAIR/2.webp"
+import shop147 from "@/assets/img/chair/ZB-RATTAN-CHAIR/3.webp"
+import shop148 from "@/assets/img/chair/ZB-RATTAN-CHAIR/4.webp"
+import shop149 from "@/assets/img/chair/ZB-RATTAN-CHAIR/5.webp"
+import shop150 from "@/assets/img/chair/ZB-RATTAN-CHAIR/6.webp"
+
+
+
+
+// Table
+import shop151 from "@/assets/img/table/BREW-DINING-TABLE/9eh5sksw.png"
+import shop152 from "@/assets/img/table/BREW-DINING-TABLE/ouq7bkbe.png"
+
+
+import shop153 from "@/assets/img/table/BRYENKA-BENCH/0y1ntyjo.png"
+import shop154 from "@/assets/img/table/BRYENKA-BENCH/3amy0pwe.png"
+import shop155 from "@/assets/img/table/BRYENKA-BENCH/6tbzz3lt.png"
+import shop156 from "@/assets/img/table/BRYENKA-BENCH/390v472j.png"
+import shop157 from "@/assets/img/table/BRYENKA-BENCH/a6vujuhb.png"
+import shop158 from "@/assets/img/table/BRYENKA-BENCH/m5gghg1s.png"
+import shop159 from "@/assets/img/table/BRYENKA-BENCH/m8e0s0e6.png"
+import shop160 from "@/assets/img/table/BRYENKA-BENCH/sqojjgjm.png"
+
+
+
+import shop161 from "@/assets/img/table/CASABIA-NESTED-TABLE/1tr2it8k.png"
+import shop162 from "@/assets/img/table/CASABIA-NESTED-TABLE/4wegyjwq.png"
+import shop163 from "@/assets/img/table/CASABIA-NESTED-TABLE/5tixh4hg.png"
+import shop164 from "@/assets/img/table/CASABIA-NESTED-TABLE/iwk2pvcb.png"
+import shop165 from "@/assets/img/table/CASABIA-NESTED-TABLE/lhmghj6n.png"
+import shop166 from "@/assets/img/table/CASABIA-NESTED-TABLE/m87xeftv.png"
+
+
+
+import shop167 from "@/assets/img/table/COFFEE-TABLE-INDUSTRIA/1.png"
+
+import shop168 from "@/assets/img/table/GLEN-DINING-TABLE/1.png"
+import shop169 from "@/assets/img/table/GLEN-DINING-TABLE/2.png"
+import shop170 from "@/assets/img/table/GLEN-DINING-TABLE/3.png"
+import shop171 from "@/assets/img/table/GLEN-DINING-TABLE/4.png"
+import shop172 from "@/assets/img/table/GLEN-DINING-TABLE/5.png"
+
+import shop173 from "@/assets/img/table/LYON-NESTED-TABLE-BIG/1.png"
+import shop174 from "@/assets/img/table/LYON-NESTED-TABLE-BIG/2.png"
+import shop175 from "@/assets/img/table/LYON-NESTED-TABLE-BIG/3.png"
+import shop176 from "@/assets/img/table/LYON-NESTED-TABLE-BIG/4.png"
+import shop177 from "@/assets/img/table/LYON-NESTED-TABLE-BIG/5.png"
+
+
+
+import shop178 from "@/assets/img/table/LYON-NESTED-TABLE-SMALL/1.png"
+import shop179 from "@/assets/img/table/LYON-NESTED-TABLE-SMALL/2.png"
+import shop180 from "@/assets/img/table/LYON-NESTED-TABLE-SMALL/3.png"
+import shop181 from "@/assets/img/table/LYON-NESTED-TABLE-SMALL/4.png"
+
+
+import shop182 from "@/assets/img/table/PEACOCK-COFFEE-TABLE/1.png"
+
+import shop183 from "@/assets/img/table/PEACOCK-SIDE-TABLE/1.png"
+
+import shop184 from "@/assets/img/table/TAYLOR-DESK/1.png"
+import shop185 from "@/assets/img/table/TAYLOR-DESK/2.png"
+import shop186 from "@/assets/img/table/TAYLOR-DESK/3.png"
+import shop187 from "@/assets/img/table/TAYLOR-DESK/4.png"
+import shop188 from "@/assets/img/table/TAYLOR-DESK/5.png"
+import shop189 from "@/assets/img/table/TAYLOR-DESK/6.png"
+import shop190 from "@/assets/img/table/TAYLOR-DESK/7.png"
+
+// sofa
+import shop191 from "@/assets/img/sofa/BLOOM-LOUNGE-SOFA/SLV-368334_1.webp"
+import shop192 from "@/assets/img/sofa/BLOOM-LOUNGE-SOFA/SLV-368334_2.webp"
+import shop193 from "@/assets/img/sofa/BLOOM-LOUNGE-SOFA/SLV-368334_3.webp"
+import shop194 from "@/assets/img/sofa/BLOOM-LOUNGE-SOFA/SLV-368334_4.webp"
+import shop195 from "@/assets/img/sofa/BLOOM-LOUNGE-SOFA/SLV-368334_5.webp"
+import shop196 from "@/assets/img/sofa/BLOOM-LOUNGE-SOFA/SLV-368334_6.webp"
+import shop197 from "@/assets/img/sofa/BLOOM-LOUNGE-SOFA/SLV-368334_7.webp"
+import shop198 from "@/assets/img/sofa/BLOOM-LOUNGE-SOFA/SLV-368334_8.webp"
+import shop199 from "@/assets/img/sofa/BLOOM-LOUNGE-SOFA/SLV-368334_9.webp"
+import shop200 from "@/assets/img/sofa/BLOOM-LOUNGE-SOFA/SLV-368334_10.webp"
+
+
+// MIRROR
+import shop201 from "@/assets/img/mirror/ANATOLIA-MIRROR/3p8c6qn3.png"
+import shop202 from "@/assets/img/mirror/ANATOLIA-MIRROR/6dej2969.png"
+import shop203 from "@/assets/img/mirror/ANATOLIA-MIRROR/3p8c6qn3.png"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -149,6 +406,9 @@ import shop06 from '@/assets/img/gallery/shop-04/shop-06.jpg'
 import shop07 from '@/assets/img/gallery/shop-04/shop-07.jpg'
 import shop08 from '@/assets/img/gallery/shop-04/shop-08.jpg'
 import shop09 from '@/assets/img/gallery/shop-04/shop-09.jpg'
+
+
+
 
     export const categoryOne = [
         {
@@ -571,8 +831,1361 @@ export const productList = [
         name:'Chippendale Armchair',
         categorySlug : "chair"
     },
+    {
+        id:50,
+        image:shop46,
+        tag:'',
+        price:'',
+        name:'Crea Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:51,
+        image:shop47,
+        tag:'',
+        price:'',
+        name:'Crea Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:52,
+        image:shop48,
+        tag:'',
+        price:'',
+        name:'Crea Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:53,
+        image:shop49,
+        tag:'',
+        price:'',
+        name:'Crea Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:54,
+        image:shop50,
+        tag:'',
+        price:'',
+        name:'Crea Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:55,
+        image:shop51,
+        tag:'',
+        price:'',
+        name:'Crea Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:56,
+        image:shop52,
+        tag:'',
+        price:'',
+        name:'Crea Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:57,
+        image:shop53,
+        tag:'',
+        price:'',
+        name:'Crea Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:58,
+        image:shop54,
+        tag:'',
+        price:'',
+        name:'Crea Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:58,
+        image:shop55,
+        tag:'',
+        price:'',
+        name:'Flower Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:59,
+        image:shop56,
+        tag:'',
+        price:'',
+        name:'Flower Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:60,
+        image:shop57,
+        tag:'',
+        price:'',
+        name:'Herring Stoll',
+        categorySlug : "chair"
+    },
+    {
+        id:61,
+        image:shop58,
+        tag:'',
+        price:'',
+        name:'Herring Stoll',
+        categorySlug : "chair"
+    },
+    {
+        id:62,
+        image:shop59,
+        tag:'',
+        price:'',
+        name:'Herring Stoll',
+        categorySlug : "chair"
+    },
+    {
+        id:63,
+        image:shop60,
+        tag:'',
+        price:'',
+        name:'Herring Stoll',
+        categorySlug : "chair"
+    },
+    {
+        id:64,
+        image:shop61,
+        tag:'',
+        price:'',
+        name:'Herring Stoll',
+        categorySlug : "chair"
+    },
+    {
+        id:65,
+        image:shop62,
+        tag:'',
+        price:'',
+        name:'Herring Stoll',
+        categorySlug : "chair"
+    },
+    {
+        id:66,
+        image:shop63,
+        tag:'',
+        price:'',
+        name:'Juma Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:67,
+        image:shop64,
+        tag:'',
+        price:'',
+        name:'Juma Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:68,
+        image:shop65,
+        tag:'',
+        price:'',
+        name:'Juma Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:69,
+        image:shop66,
+        tag:'',
+        price:'',
+        name:'Juma Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:70,
+        image:shop67,
+        tag:'',
+        price:'',
+        name:'Juma Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:71,
+        image:shop68,
+        tag:'',
+        price:'',
+        name:'Juma Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:72,
+        image:shop69,
+        tag:'',
+        price:'',
+        name:'Kelek Kids Chair Natural',
+        categorySlug : "chair"
+    },
+    {
+        id:73,
+        image:shop70,
+        tag:'',
+        price:'',
+        name:'Kelek Kids Chair Natural',
+        categorySlug : "chair"
+    },
+    {
+        id:74,
+        image:shop71,
+        tag:'',
+        price:'',
+        name:'Kelek Kids Chair Natural',
+        categorySlug : "chair"
+    },
+    {
+        id:75,
+        image:shop72,
+        tag:'',
+        price:'',
+        name:'Kelek Kids Chair White',
+        categorySlug : "chair"
+    },
+    {
+        id:76,
+        image:shop73,
+        tag:'',
+        price:'',
+        name:'Kelek Kids Chair White',
+        categorySlug : "chair"
+    },
+    {
+        id:77,
+        image:shop74,
+        tag:'',
+        price:'',
+        name:'Max Dining Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:78,
+        image:shop75,
+        tag:'',
+        price:'',
+        name:'Max Dining Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:79,
+        image:shop76,
+        tag:'',
+        price:'',
+        name:'Max Dining Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:80,
+        image:shop77,
+        tag:'',
+        price:'',
+        name:'Max Dining Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:81,
+        image:shop78,
+        tag:'',
+        price:'',
+        name:'Max Dining Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:82,
+        image:shop79,
+        tag:'',
+        price:'',
+        name:'Max Dining Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:83,
+        image:shop80,
+        tag:'',
+        price:'',
+        name:'Max Dining Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:84,
+        image:shop81,
+        tag:'',
+        price:'',
+        name:'Mory Chair Light Grey',
+        categorySlug : "chair"
+    },
+    {
+        id:85,
+        image:shop82,
+        tag:'',
+        price:'',
+        name:'Mory Chair Light Grey',
+        categorySlug : "chair"
+    },
+    {
+        id:86,
+        image:shop83,
+        tag:'',
+        price:'',
+        name:'Mory Chair Light Grey',
+        categorySlug : "chair"
+    },
+    {
+        id:87,
+        image:shop84,
+        tag:'',
+        price:'',
+        name:'Mory Chair Light Grey',
+        categorySlug : "chair"
+    },
+    {
+        id:88,
+        image:shop85,
+        tag:'',
+        price:'',
+        name:'Mory Chair Light Grey',
+        categorySlug : "chair"
+    },
+    {
+        id:89,
+        image:shop86,
+        tag:'',
+        price:'',
+        name:'Mory Chair Light Grey',
+        categorySlug : "chair"
+    },
+    {
+        id:90,
+        image:shop87,
+        tag:'',
+        price:'',
+        name:'Orlon Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:91,
+        image:shop88,
+        tag:'',
+        price:'',
+        name:'Paul Barstool',
+        categorySlug : "chair"
+    },
+    {
+        id:92,
+        image:shop89,
+        tag:'',
+        price:'',
+        name:'Paul Barstool',
+        categorySlug : "chair"
+    },
+    {
+        id:93,
+        image:shop90,
+        tag:'',
+        price:'',
+        name:'Paul Dining Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:94,
+        image:shop91,
+        tag:'',
+        price:'',
+        name:'Paul Dining Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:95,
+        image:shop92,
+        tag:'',
+        price:'',
+        name:'Paul Dining Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:96,
+        image:shop93,
+        tag:'',
+        price:'',
+        name:'Peacock Armchair Blue',
+        categorySlug : "chair"
+    },
+    {
+        id:97,
+        image:shop94,
+        tag:'',
+        price:'',
+        name:'Peacock Armchair Red',
+        categorySlug : "chair"
+    },
+    {
+        id:98,
+        image:shop95,
+        tag:'',
+        price:'',
+        name:'Peacock Armchair Yellow',
+        categorySlug : "chair"
+    },
+    {
+        id:99,
+        image:shop96,
+        tag:'',
+        price:'',
+        name:'Peacock Dining Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:100,
+        image:shop97,
+        tag:'',
+        price:'',
+        name:'Peacock Dining Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:101,
+        image:shop98,
+        tag:'',
+        price:'',
+        name:'Peacock Dining Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:102,
+        image:shop99,
+        tag:'',
+        price:'',
+        name:'Peacock Dining Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:103,
+        image:shop100,
+        tag:'',
+        price:'',
+        name:'Peacock Dining Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:104,
+        image:shop101,
+        tag:'',
+        price:'',
+        name:'Peacock Dining Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:105,
+        image:shop102,
+        tag:'',
+        price:'',
+        name:'Peacock Dining Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:106,
+        image:shop103,
+        tag:'',
+        price:'',
+        name:'Peacock Dining Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:106,
+        image:shop104,
+        tag:'',
+        price:'',
+        name:'Peacock Dining Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:107,
+        image:shop105,
+        tag:'',
+        price:'',
+        name:'Provence Wall Shelves',
+        categorySlug : "chair"
+    },
+    {
+        id:108,
+        image:shop106,
+        tag:'',
+        price:'',
+        name:'Provence Wall Shelves',
+        categorySlug : "chair"
+    },
+    {
+        id:109,
+        image:shop107,
+        tag:'',
+        price:'',
+        name:'Provence Wall Shelves',
+        categorySlug : "chair"
+    },
+    {
+        id:110,
+        image:shop108,
+        tag:'',
+        price:'',
+        name:'Provence Wall Shelves',
+        categorySlug : "chair"
+    },
+    {
+        id:111,
+        image:shop109,
+        tag:'',
+        price:'',
+        name:'Provence Wall Shelves',
+        categorySlug : "chair"
+    },
+    {
+        id:112,
+        image:shop110,
+        tag:'',
+        price:'',
+        name:'Slouch Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:113,
+        image:shop111,
+        tag:'',
+        price:'',
+        name:'Slouch Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:114,
+        image:shop112,
+        tag:'',
+        price:'',
+        name:'Slouch Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:115,
+        image:shop113,
+        tag:'',
+        price:'',
+        name:'Slouch Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:116,
+        image:shop114,
+        tag:'',
+        price:'',
+        name:'Slouch Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:117,
+        image:shop115,
+        tag:'',
+        price:'',
+        name:'Slouch Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:118,
+        image:shop116,
+        tag:'',
+        price:'',
+        name:'Slouch Stool',
+        categorySlug : "chair"
+    },
+    {
+        id:119,
+        image:shop117,
+        tag:'',
+        price:'',
+        name:'Slouch Stool',
+        categorySlug : "chair"
+    },
+    {
+        id:120,
+        image:shop118,
+        tag:'',
+        price:'',
+        name:'Slouch Stool',
+        categorySlug : "chair"
+    },
+    {
+        id:121,
+        image:shop119,
+        tag:'',
+        price:'',
+        name:'Slouch Stool',
+        categorySlug : "chair"
+    },
+    {
+        id:122,
+        image:shop120,
+        tag:'',
+        price:'',
+        name:'Square Bistro Armchair',
+        categorySlug : "chair"
+    },
+    {
+        id:123,
+        image:shop121,
+        tag:'',
+        price:'',
+        name:'Square Bistro Armchair',
+        categorySlug : "chair"
+    },
+    {
+        id:124,
+        image:shop122,
+        tag:'',
+        price:'',
+        name:'Stella Hanging Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:125,
+        image:shop123,
+        tag:'',
+        price:'',
+        name:'Stella Hanging Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:126,
+        image:shop124,
+        tag:'',
+        price:'',
+        name:'Takeshi Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:127,
+        image:shop125,
+        tag:'',
+        price:'',
+        name:'Takeshi Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:128,
+        image:shop126,
+        tag:'',
+        price:'',
+        name:'Takeshi Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:129,
+        image:shop127,
+        tag:'',
+        price:'',
+        name:'Takeshi Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:130,
+        image:shop128,
+        tag:'',
+        price:'',
+        name:'Takeshi Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:131,
+        image:shop129,
+        tag:'',
+        price:'',
+        name:'Takeshi Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:132,
+        image:shop130,
+        tag:'',
+        price:'',
+        name:'Takeshi Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:133,
+        image:shop131,
+        tag:'',
+        price:'',
+        name:'Takeshi Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:134,
+        image:shop132,
+        tag:'',
+        price:'',
+        name:'Tiffany Dining Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:135,
+        image:shop133,
+        tag:'',
+        price:'',
+        name:'Tiffany Dining Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:136,
+        image:shop133,
+        tag:'',
+        price:'',
+        name:'Tiffany Dining Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:137,
+        image:shop134,
+        tag:'',
+        price:'',
+        name:'Tub Bistro Armchair',
+        categorySlug : "chair"
+    },
+    {
+        id:138,
+        image:shop135,
+        tag:'',
+        price:'',
+        name:'Webbing Dining Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:139,
+        image:shop136,
+        tag:'',
+        price:'',
+        name:'Webbing Dining Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:140,
+        image:shop137,
+        tag:'',
+        price:'',
+        name:'Webbing Dining Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:141,
+        image:shop138,
+        tag:'',
+        price:'',
+        name:'Webbing Dining Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:142,
+        image:shop139,
+        tag:'',
+        price:'',
+        name:'Webbing Dining Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:143,
+        image:shop140,
+        tag:'',
+        price:'',
+        name:'Webbing Dining Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:144,
+        image:shop141,
+        tag:'',
+        price:'',
+        name:'Webbing Dining Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:145,
+        image:shop142,
+        tag:'',
+        price:'',
+        name:'Webbing Dining Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:146,
+        image:shop143,
+        tag:'',
+        price:'',
+        name:'Yoseph Peel Dining Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:147,
+        image:shop145,
+        tag:'',
+        price:'',
+        name:'Zb Rattan Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:148,
+        image:shop146,
+        tag:'',
+        price:'',
+        name:'Zb Rattan Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:149,
+        image:shop147,
+        tag:'',
+        price:'',
+        name:'Zb Rattan Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:150,
+        image:shop148,
+        tag:'',
+        price:'',
+        name:'Zb Rattan Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:151,
+        image:shop149,
+        tag:'',
+        price:'',
+        name:'Zb Rattan Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:152,
+        image:shop150,
+        tag:'',
+        price:'',
+        name:'Zb Rattan Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:153,
+        image:shop151,
+        tag:'',
+        price:'',
+        name:'Brew Dining Table',
+        categorySlug : "table"
+    },
+    {
+        id:154,
+        image:shop152,
+        tag:'',
+        price:'',
+        name:'Brew Dining Table',
+        categorySlug : "table"
+    },
+    {
+        id:155,
+        image:shop153,
+        tag:'',
+        price:'',
+        name:'Bryenka Bench',
+        categorySlug : "table"
+    },
+    {
+        id:156,
+        image:shop154,
+        tag:'',
+        price:'',
+        name:'Bryenka Bench',
+        categorySlug : "table"
+    },
+    {
+        id:157,
+        image:shop155,
+        tag:'',
+        price:'',
+        name:'Bryenka Bench',
+        categorySlug : "table"
+    },
+    {
+        id:158,
+        image:shop156,
+        tag:'',
+        price:'',
+        name:'Bryenka Bench',
+        categorySlug : "table"
+    },
+    {
+        id:159,
+        image:shop157,
+        tag:'',
+        price:'',
+        name:'Bryenka Bench',
+        categorySlug : "table"
+    },
+    {
+        id:160,
+        image:shop158,
+        tag:'',
+        price:'',
+        name:'Bryenka Bench',
+        categorySlug : "table"
+    },
+    {
+        id:161,
+        image:shop159,
+        tag:'',
+        price:'',
+        name:'Bryenka Bench',
+        categorySlug : "table"
+    },
+    {
+        id:162,
+        image:shop160,
+        tag:'',
+        price:'',
+        name:'Bryenka Bench',
+        categorySlug : "table"
+    },
+    {
+        id:163,
+        image:shop161,
+        tag:'',
+        price:'',
+        name:'Casabia Nested Table',
+        categorySlug : "table"
+    },
+    {
+        id:164,
+        image:shop162,
+        tag:'',
+        price:'',
+        name:'Casabia Nested Table',
+        categorySlug : "table"
+    },
+    {
+        id:165,
+        image:shop163,
+        tag:'',
+        price:'',
+        name:'Casabia Nested Table',
+        categorySlug : "table"
+    },
+    {
+        id:166,
+        image:shop164,
+        tag:'',
+        price:'',
+        name:'Casabia Nested Table',
+        categorySlug : "table"
+    },
+    {
+        id:167,
+        image:shop165,
+        tag:'',
+        price:'',
+        name:'Casabia Nested Table',
+        categorySlug : "table"
+    },
+    {
+        id:168,
+        image:shop166,
+        tag:'',
+        price:'',
+        name:'Casabia Nested Table',
+        categorySlug : "table"
+    },
+    {
+        id:169,
+        image:shop167,
+        tag:'',
+        price:'',
+        name:'Coffee Table Industria',
+        categorySlug : "table"
+    },
+    {
+        id:170,
+        image:shop168,
+        tag:'',
+        price:'',
+        name:'Glen Dining Table',
+        categorySlug : "table"
+    },
+    {
+        id:171,
+        image:shop169,
+        tag:'',
+        price:'',
+        name:'Glen Dining Table',
+        categorySlug : "table"
+    },
+    {
+        id:172,
+        image:shop170,
+        tag:'',
+        price:'',
+        name:'Glen Dining Table',
+        categorySlug : "table"
+    },
+    {
+        id:173,
+        image:shop171,
+        tag:'',
+        price:'',
+        name:'Glen Dining Table',
+        categorySlug : "table"
+    },
+    {
+        id:174,
+        image:shop172,
+        tag:'',
+        price:'',
+        name:'Glen Dining Table',
+        categorySlug : "table"
+    },
+    {
+        id:174,
+        image:shop172,
+        tag:'',
+        price:'',
+        name:'Glen Dining Table',
+        categorySlug : "table"
+    },
+    {
+        id:175,
+        image:shop173,
+        tag:'',
+        price:'',
+        name:'Lyon Nested Table Big',
+        categorySlug : "table"
+    },
+    {
+        id:176,
+        image:shop174,
+        tag:'',
+        price:'',
+        name:'Lyon Nested Table Big',
+        categorySlug : "table"
+    },
+    {
+        id:177,
+        image:shop175,
+        tag:'',
+        price:'',
+        name:'Lyon Nested Table Big',
+        categorySlug : "table"
+    },
+    {
+        id:178,
+        image:shop176,
+        tag:'',
+        price:'',
+        name:'Lyon Nested Table Big',
+        categorySlug : "table"
+    },
+    {
+        id:179,
+        image:shop177,
+        tag:'',
+        price:'',
+        name:'Lyon Nested Table Big',
+        categorySlug : "table"
+    },
+    {
+        id:180,
+        image:shop177,
+        tag:'',
+        price:'',
+        name:'Lyon Nested Table Small',
+        categorySlug : "table"
+    },
+    {
+        id:181,
+        image:shop178,
+        tag:'',
+        price:'',
+        name:'Lyon Nested Table Small',
+        categorySlug : "table"
+    },
+    {
+        id:182,
+        image:shop179,
+        tag:'',
+        price:'',
+        name:'Lyon Nested Table Small',
+        categorySlug : "table"
+    },
+    {
+        id:183,
+        image:shop180,
+        tag:'',
+        price:'',
+        name:'Lyon Nested Table Small',
+        categorySlug : "table"
+    },
+    {
+        id:184,
+        image:shop181,
+        tag:'',
+        price:'',
+        name:'Lyon Nested Table Small',
+        categorySlug : "table"
+    },
+    {
+        id:185,
+        image:shop182,
+        tag:'',
+        price:'',
+        name:'Peacock Coffee Table',
+        categorySlug : "table"
+    },
+    {
+        id:186,
+        image:shop183,
+        tag:'',
+        price:'',
+        name:'Peacock Side Table',
+        categorySlug : "table"
+    },
+    {
+        id:187,
+        image:shop184,
+        tag:'',
+        price:'',
+        name:'Taylor Desk',
+        categorySlug : "table"
+    },
+    {
+        id:188,
+        image:shop185,
+        tag:'',
+        price:'',
+        name:'Taylor Desk',
+        categorySlug : "table"
+    },
+    {
+        id:189,
+        image:shop186,
+        tag:'',
+        price:'',
+        name:'Taylor Desk',
+        categorySlug : "table"
+    },
+    {
+        id:190,
+        image:shop187,
+        tag:'',
+        price:'',
+        name:'Taylor Desk',
+        categorySlug : "table"
+    },
+    {
+        id:191,
+        image:shop188,
+        tag:'',
+        price:'',
+        name:'Taylor Desk',
+        categorySlug : "table"
+    },
+    {
+        id:192,
+        image:shop189,
+        tag:'',
+        price:'',
+        name:'Taylor Desk',
+        categorySlug : "table"
+    },
+    {
+        id:193,
+        image:shop190,
+        tag:'',
+        price:'',
+        name:'Taylor Desk',
+        categorySlug : "table"
+    },
+    {
+        id:194,
+        image:shop191,
+        tag:'',
+        price:'',
+        name:'Bloom Lounge Sofa',
+        categorySlug : "table"
+    },
+    {
+        id:195,
+        image:shop192,
+        tag:'',
+        price:'',
+        name:'Bloom Lounge Sofa',
+        categorySlug : "table"
+    },
+    {
+        id:196,
+        image:shop192,
+        tag:'',
+        price:'',
+        name:'Bloom Lounge Sofa',
+        categorySlug : "table"
+    },
+    {
+        id:197,
+        image:shop193,
+        tag:'',
+        price:'',
+        name:'Bloom Lounge Sofa',
+        categorySlug : "table"
+    },
+    {
+        id:198,
+        image:shop194,
+        tag:'',
+        price:'',
+        name:'Bloom Lounge Sofa',
+        categorySlug : "table"
+    },
+    {
+        id:199,
+        image:shop195,
+        tag:'',
+        price:'',
+        name:'Bloom Lounge Sofa',
+        categorySlug : "table"
+    },
+    {
+        id:200,
+        image:shop196,
+        tag:'',
+        price:'',
+        name:'Bloom Lounge Sofa',
+        categorySlug : "table"
+    },
+    {
+        id:201,
+        image:shop197,
+        tag:'',
+        price:'',
+        name:'Bloom Lounge Sofa',
+        categorySlug : "table"
+    },
+    {
+        id:201,
+        image:shop198,
+        tag:'',
+        price:'',
+        name:'Bloom Lounge Sofa',
+        categorySlug : "table"
+    },
+    {
+        id:202,
+        image:shop199,
+        tag:'',
+        price:'',
+        name:'Bloom Lounge Sofa',
+        categorySlug : "table"
+    },
+    {
+        id:203,
+        image:shop200,
+        tag:'',
+        price:'',
+        name:'Bloom Lounge Sofa',
+        categorySlug : "table"
+    },
+    {
+        id:204,
+        image:shop201,
+        tag:'',
+        price:'',
+        name:'Anatolia Mirror',
+        categorySlug : "mirror"
+    },
+    {
+        id:205,
+        image:shop202,
+        tag:'',
+        price:'',
+        name:'Anatolia Mirror',
+        categorySlug : "mirror"
+    },
+    {
+        id:206,
+        image:shop203,
+        tag:'',
+        price:'',
+        name:'Anatolia Mirror',
+        categorySlug : "mirror"
+    },
+    {
+        id:207,
+        image:shopPapasan1,
+        tag:'',
+        price:'',
+        name:'Modified Papasan Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:208,
+        image:shopPapasan2,
+        tag:'',
+        price:'',
+        name:'Modified Papasan Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:209,
+        image:shopPapasan3,
+        tag:'',
+        price:'',
+        name:'Modified Papasan Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:210,
+        image:shopPapasan4,
+        tag:'',
+        price:'',
+        name:'Modified Papasan Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:211,
+        image:shopPapasan5,
+        tag:'',
+        price:'',
+        name:'Modified Papasan Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:212,
+        image:shopPapasan6,
+        tag:'',
+        price:'',
+        name:'Modified Papasan Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:213,
+        image:shopPapasan7,
+        tag:'',
+        price:'',
+        name:'Modified Papasan Chair',
+        categorySlug : "chair"
+    },
+    {
+        id:214,
+        image:shopPapasan8,
+        tag:'',
+        price:'',
+        name:'Modified Papasan Chair',
+        categorySlug : "chair"
+    },
 ]
-
+// MODIFIED-PAPASAN-CHAIR   LYON-NESTED-TABLE-SMALL PEACOCK-SIDE-TABLE 177-181 PEACOCK-COFFEE-TABLE
+// PAUL-DINING-CHAIR  JUMA-CHAIR FLOWER-CHAIR HERRING-STOOL MORY-CHAIR-LIGHT-GREY MAX-DINING-CHAIR PAUL-BARSTOOL
 // Borneo Hanging Chair
 
 export const featureOne = [
